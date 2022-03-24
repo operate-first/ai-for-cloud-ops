@@ -22,6 +22,7 @@ Praxi is a tool for discovering software running in the cloud using machine lear
 
 ## Join the Project!
 
-If you want to learn more about this project and get involved, come say 'Hi!'and ask questions in the #data-science channel on the [Operate First Slack](https://join.slack.com/t/operatefirst/shared_invite/zt-o2gn4wn8-O39g7sthTAuPCvaCNRnLww). 
+If you want to learn more about this project and get involved, come say 'Hi!'and ask questions in the #ai4cloudops channel on the [Operate First Slack](https://join.slack.com/t/operatefirst/shared_invite/zt-o2gn4wn8-O39g7sthTAuPCvaCNRnLww).
+We also invite you to join our [monthly community Zoom meetings](https://bostonu.zoom.us/j/98113583702?pwd=akQ3c3lKOG1NZ2tNRFFUSlNGRXhCQT09) on the first Wednesday of every month at 10am U.S. Eastern.
 
 Or, go ahead an open an issue in this repo. 

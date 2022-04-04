@@ -7,7 +7,7 @@ Peac_LS is a part of the *AI for Cloud Ops* initiative. It is a Language Server 
 ![Architecture](https://user-images.githubusercontent.com/65934595/161632251-774f106a-1f0d-43f0-8eff-660484197c90.png)
 
 ## Foundational Work
-One of the project that form the foundation of the *AI for Cloud Ops* initiative is Praxi. Please refer to the project README for more information. For this specific method of implementation, we are using the Language Server Protocol (LSP) and for
+One of the project that form the foundation of the *AI for Cloud Ops* initiative is Praxi. Please refer to the project README for more information. For this specific method of implementation, we are using the Language Server Protocol (LSP).
 
 ### Language Server Protocol (LSP)
 The Language Server Protocol (LSP) defines the protocol used between an editor or IDE and a language server. Please refer to [Official LSP Website](https://microsoft.github.io/language-server-protocol/) for more information.

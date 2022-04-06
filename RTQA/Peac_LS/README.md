@@ -15,5 +15,5 @@ The Language Server Protocol (LSP) defines the protocol used between an editor o
 ## Current Work
 Peac_LS is being worked on in parallel to *iPython magic implementation* method of implementation. Currently, an example of a working plugin is made by using PyLS and cookiecutter. Ideally, we would like to create our very own working Language Server.
 
-### pylsPlugins
-Using cookiecutter and an existing Python Language Server (PyLS), this plugin highlights any part of the code that calls for an import of a module. Next steps include doing analysis in the backend and adding that to the message shown when users hover over the highlight.
+### pylsImports
+Using cookiecutter and an existing Python Language Server (PyLS), this plugin highlights any part of the code that calls for an import of a module. Next steps include doing analysis in the backend and adding analytic messages toshow instead when users hover over the highlight.

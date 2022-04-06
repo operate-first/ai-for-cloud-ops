@@ -72,8 +72,8 @@ if __name__ == '__main__':
     label = args['label']
     yaml_name = get_free_filename(label, targetdir, suffix='.yaml')
 
-    # watch_path = '/home/' + getpass.getuser() + '/.roaming/Python/Python310/site-packages/'
-    watch_path = 'c:/Users/bribr/AppData/Local/Programs/Python/Python310/Lib/site-packages'
+    watch_path = '/home/' + getpass.getuser() + '/.roaming/Python/Python310/site-packages/'
+    print("Watching " + watch_paths)
 
     watch_paths = [watch_path]
     dswd = ds_watchdog.DeltaSherlockWatchdog(watch_paths, "*", ".")

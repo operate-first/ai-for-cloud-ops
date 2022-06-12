@@ -1,0 +1,27 @@
+id: '23675'
+label: crda
+tags:
+- 000:202
+- system:6
+- sys:7
+- man:100
+- regulatory.bin.:7
+- reg:27
+- dpkg:59
+- wireless-regdb.:8
+- iw.:15
+- tmp.:21
+- con:11
+- lin:7
+- crda.:30
+- regdbdump.:7
+- regdb:10
+- zh_:6
+- config.dat-:4
+- templates.dat-:4
+- update:21
+- status-:5
+- system@7c7fb3852163487fbc45712988e11c5b-000000000000:3
+- reglib.:5
+- crda.p:2
+- 001:2

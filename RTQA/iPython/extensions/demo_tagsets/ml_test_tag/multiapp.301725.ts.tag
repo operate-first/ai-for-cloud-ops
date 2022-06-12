@@ -1,0 +1,36 @@
+id: '301725'
+labels:
+- qrencode
+- dcraw
+- finger
+tags:
+- 000:432
+- extended_states.:9
+- dpkg:113
+- tmp.:45
+- libqrencode.so.3.:7
+- libqrencode:20
+- libqrencode3amd64.:8
+- libqrencode3:12
+- con:14
+- qrencode.:17
+- zh_:18
+- update:51
+- status-:15
+- pkgcache.bin.:9
+- msg.:5
+- libqrencode3amd64.s:2
+- README.:4
+- 001:2
+- dcparse.:7
+- dcfujigreen.:7
+- dcfuji:24
+- dccleancrw.:7
+- dcraw.:17
+- dcfujiturn16.:7
+- dcfujiturn:16
+- dcfujiturn.:7
+- config.dat-:4
+- templates.dat-:4
+- subscriptions.conf.:4
+- finger.:15

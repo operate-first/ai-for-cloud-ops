@@ -1,0 +1,21 @@
+id: '28507'
+label: zsh
+tags:
+- 000:116
+- dpkg:51
+- tmp.:24
+- pre:6
+- zsh:181
+- zsh.dpkg-:53
+- zsh.:62
+- rzsh.:13
+- update:12
+- status-:5
+- sys:4
+- system.:3
+- zle:4
+- compl:4
+- changelog.:4
+- zsh.pre:2
+- zsh.p:4
+- zsh.post:2

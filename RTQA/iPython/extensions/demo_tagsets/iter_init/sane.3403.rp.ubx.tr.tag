@@ -1,0 +1,19 @@
+id: '3403'
+label: sane
+tags:
+- 000:154
+- dpkg:38
+- tmp.:17
+- con:8
+- sane.:18
+- sane:38
+- xscanimage:17
+- scanadf.:7
+- xscanimage.:10
+- xcam.:7
+- zh_:6
+- config.dat-:4
+- templates.dat-:4
+- update:12
+- status-:5
+- sane.post:2

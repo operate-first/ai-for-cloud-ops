@@ -1,0 +1,29 @@
+id: '300672'
+labels:
+- supermin
+- mksh
+tags:
+- 000:318
+- extended_states.:6
+- dpkg:84
+- tmp.:39
+- con:14
+- supermin.:20
+- zh_:12
+- config.dat-:4
+- templates.dat-:4
+- update:30
+- status-:10
+- pkgcache.bin.:6
+- pre:6
+- mksh:74
+- mksh.:35
+- lksh.:7
+- mksh16:8
+- mksh-static.:7
+- ksh.:13
+- sys:2
+- check.:4
+- mksh.pre:2
+- mksh.p:4
+- mksh.post:2

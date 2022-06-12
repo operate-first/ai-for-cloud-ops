@@ -1,0 +1,34 @@
+id: '300370'
+labels:
+- powertop
+- dwz
+tags:
+- 000:332
+- extended_states.:6
+- dpkg:102
+- tmp.:39
+- con:14
+- libnl-3.so.200.:7
+- libnl-3.:10
+- libnl-3:33
+- libnl-:53
+- libnl-3-200amd64.:9
+- libnl-3-200:15
+- libnl-genl-3.so.200.:7
+- libnl-genl-3:20
+- libnl-genl-3-200amd64.:8
+- libnl-genl-3-200:12
+- man:179
+- powertop.:15
+- zh_:12
+- config.dat-:4
+- templates.dat-:4
+- update:39
+- status-:10
+- pkgcache.bin.:6
+- libnl-3-200amd64.s:2
+- libnl-genl-3-200amd64.s:2
+- 001:5
+- msg.:14
+- '1008:10'
+- dwz.:14

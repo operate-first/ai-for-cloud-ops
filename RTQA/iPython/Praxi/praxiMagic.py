@@ -4,6 +4,8 @@ import sys
 import time
 import math
 import subprocess
+import shlex
+import argparse
 from ast import Module
 
 from IPython.core import magic_arguments, oinspect, page
@@ -41,7 +43,7 @@ class ExecutionMagics(Magics):
     def abracadabra(self, line, cell=None):
         "Magic that works both as %lcmagic and as %%lcmagic"
         if cell is None:
-            print("Called as line magic")
+            print("Called as line magi")
             return line
         else:
             print("Called as cell magic")
@@ -52,12 +54,19 @@ class ExecutionMagics(Magics):
     @needs_local_scope
     @line_cell_magic
     def praxi(self,line='', cell=None, local_ns=None):
-        p = subprocess.Popen(['python', './.ipython/extensions/cs_rec.py','-t','.','-l','hello'], stdin=subprocess.PIPE, shell=True)
+        print("Starting praxi magic")
+        # p = subprocess.Popen(['python', './.ipython/extensions/cs_rec.py','-t','.','-l','hello'], stdin=subprocess.PIPE, shell=True)
+        
+        # We are assuming cs_rec.py placed next to praxiMagic.py
+        dirname = os.path.dirname(__file__)
+        # For now assume we ONLY use this as cell magic
+        p = subprocess.Popen(['python', os.path.join(dirname, 'cs_rec.py')] + line.split(), stdin=subprocess.PIPE, shell=True)
+        
         # os.system("python ./.ipython/extensions/cs_rec.py -t . -l hello")
 
         # fail immediately if the given expression can't be compiled
-        if line and cell:
-            raise UsageError("Can't use statement directly after '%%time'!")
+        # if line and cell:
+        #     raise UsageError("Can't use statement directly after '%%time'!")
 
         if cell:
             expr = self.shell.transform_cell(cell)

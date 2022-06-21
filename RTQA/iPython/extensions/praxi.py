@@ -103,10 +103,12 @@ class ExecutionMagics(Magics):
 
         # Minimum time above which compilation time will be reported
         tc_min = 0.1
-
+        dirname = os.path.dirname(__file__)
         # Start Deltashocker filesystem change recorder
-        p = subprocess.Popen(['python3', './.ipython/extensions/cs_rec.py','-t','./.ipython/extensions/changesets','-l',time_string],
-        stdin=subprocess.PIPE)#, shell=True)
+        p = subprocess.Popen(['python3', os.path.join(dirname, 'cs_rec.py'),'-t',os.path.join(dirname, 'changesets'),'-l',time_string], stdin=subprocess.PIPE, shell=True)
+
+        # p = subprocess.Popen(['python3', os.path.join(dirname, 'cs_rec.py','-t',os.path.join(dirname, 'changesets','-l',time_string],
+        #stdin=subprocess.PIPE)#, shell=True)
 
         expr_val=None
         if len(expr_ast.body)==1 and isinstance(expr_ast.body[0], ast.Expr):
@@ -175,9 +177,9 @@ class ExecutionMagics(Magics):
 
         p.communicate(input=b'\n')
 
-        p2 = subprocess.Popen(['python3', './.ipython/extensions/tagset_gen.py','-c','./.ipython/extensions/changesets','-t','./.ipython/extensions/tagsets'], stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
-        p3 = subprocess.Popen(['python3', './.ipython/extensions/main.py','-t','./.ipython/extensions/demo_tagsets/sl_test_tag',
-            '-s','./.ipython/extensions/tagsets','-o','./.ipython/extensions/results', '-i', './.ipython/extensions/iter_model.vw', '-l'], 
+        p2 = subprocess.Popen(['python3', os.path.join(dirname, 'tagset_gen.py'),'-c',os.path.join(dirname, 'changesets'),'-t',os.path.join(dirname, 'tagsets')], stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
+        p3 = subprocess.Popen(['python3', os.path.join(dirname, 'main.py'),'-t',os.path.join(dirname, 'demo_tagsets/sl_test_tag'),
+            '-s',os.path.join(dirname, 'tagsets'),'-o',os.path.join(dirname, 'results'), '-i', os.path.join(dirname, 'iter_model.vw'), '-l'], 
             stdin=subprocess.PIPE,  stderr=subprocess.DEVNULL)
        
         return out
@@ -227,9 +229,10 @@ def praxiCacheClean():
     """
     A helper function that deletes all the previous praxi files
     """
-    dirPath1 = './.ipython/extensions/changesets'
-    dirPath2 = './.ipython/extensions/tagsets'
-    dirPath3 = './.ipython/extensions/results'
+    dirname = os.path.dirname(__file__)
+    dirPath1 = os.path.join(dirname, 'changesets')
+    dirPath2 = os.path.join(dirname, 'tagsets')
+    dirPath3 = os.path.join(dirname, 'results')
 
     for c in os.listdir(dirPath1):
         os.remove(os.path.join(dirPath1, c))

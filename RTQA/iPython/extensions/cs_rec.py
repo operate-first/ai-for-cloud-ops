@@ -10,6 +10,7 @@ import os
 import json
 import yaml
 import argparse
+import sysconfig
 
 def get_free_filename(stub, directory, suffix=''):
     """ Get a file name that is unique in the given directory
@@ -71,8 +72,8 @@ if __name__ == '__main__':
     label = args['label']
     yaml_name = get_free_filename(label, targetdir, suffix='.yaml')
 
-    watch_path = '/home/' + getpass.getuser() + '/.local/lib/python3.8/site-packages/'
-
+    watch_path = sysconfig.get_paths()["purelib"]
+    print("Watching:" + watch_path)
     watch_paths = [watch_path]
     dswd = ds_watchdog.DeltaSherlockWatchdog(watch_paths, "*", ".")
     # Recording begins immediately after instantiation.

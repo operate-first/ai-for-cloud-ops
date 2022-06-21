@@ -4,6 +4,8 @@ import sys
 sys.path.insert(0, '../')
 from cs_recorder import ds_watchdog, io
 import time
+import pathlib
+import sysconfig
 
 #import  io, ds_watchdog
 from pathlib import Path
@@ -61,8 +63,11 @@ def json_to_yaml(fname, yamlname, label=None):
 
 if __name__ == '__main__':
     # Command line arguments!
+    print("He")
     parser = argparse.ArgumentParser(description='Arguments for Praxi software discovery algorithm.')
 
+    default_watch_path = sysconfig.get_paths()["purelib"]
+    parser.add_argument('-w','--watchdir', help='Path to watched directory.', required=False, default=default_watch_path)
     parser.add_argument('-t','--targetdir', help='Path to target directory.', required=True)
     parser.add_argument('-l', '--label', help='Application label', required=True)
 
@@ -70,9 +75,10 @@ if __name__ == '__main__':
 
     targetdir = args['targetdir']
     label = args['label']
+    watch_path = args['watchdir']
     yaml_name = get_free_filename(label, targetdir, suffix='.yaml')
 
-    watch_path = '/home/' + getpass.getuser() + '/.roaming/Python/Python310/site-packages/'
+    # watch_path = '/home/' + getpass.getuser() + '/.roaming/Python/Python310/site-packages/'
     print("Watching " + watch_path)
 
     watch_paths = [watch_path]

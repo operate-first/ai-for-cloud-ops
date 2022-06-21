@@ -60,7 +60,7 @@ class ExecutionMagics(Magics):
         # We are assuming cs_rec.py placed next to praxiMagic.py
         dirname = os.path.dirname(__file__)
         # For now assume we ONLY use this as cell magic
-        p = subprocess.Popen(['python', os.path.join(dirname, 'cs_rec.py')] + line.split(), stdin=subprocess.PIPE, shell=True)
+        p = subprocess.Popen(['python', os.path.join(dirname, 'cs_rec.py')] + shlex.split(line), stdin=subprocess.PIPE, shell=True)
         
         # os.system("python ./.ipython/extensions/cs_rec.py -t . -l hello")
 

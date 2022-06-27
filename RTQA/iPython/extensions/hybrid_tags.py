@@ -22,7 +22,7 @@ LOCK = Lock()
 
 class Hybrid(BaseEstimator):
     """ scikit style class for hybrid method """
-    def __init__(self, freq_threshold=1, vw_binary='/usr/local/bin/vw',
+    def __init__(self, freq_threshold=1, vw_binary="C:/bin/vowpal_wabbit/build/vowpalwabbit/cli/Debug/vw.exe",
                  pass_freq_to_vw=False, pass_files_to_vw=False,
                  vw_args='-b 26 --passes=20 -l 50',
                  probability=False, tqdm=True,
@@ -147,9 +147,15 @@ class Hybrid(BaseEstimator):
         f.close()
         # write all tag/label combos into a file f ^^^
         ######## Call VW ML alg ##################################
+        # print("Calling " + '{vw_binary} {vw_input} {vw_args} -f {vw_modelfile}'.format(
+        #     vw_binary=self.vw_binary, vw_input=repr(f.name),
+        #     vw_args=self.vw_args_, vw_modelfile=repr(self.vw_modelfile)))
+
+        # time.sleep(20)
+
         command = '{vw_binary} {vw_input} {vw_args} -f {vw_modelfile}'.format(
-            vw_binary=self.vw_binary, vw_input=f.name,
-            vw_args=self.vw_args_, vw_modelfile=self.vw_modelfile)
+            vw_binary=self.vw_binary, vw_input=repr(f.name),
+            vw_args=self.vw_args_, vw_modelfile=repr(self.vw_modelfile))
         #logging.info('vw input written to %s, starting training', f.name)
         #logging.info('vw command: %s', command)
         vw_start = time.time()
@@ -162,7 +168,8 @@ class Hybrid(BaseEstimator):
             logging.error(
                 'something happened to vw, code: %d, out: %s, err: %s',
                 c.status_code, c.std_out, c.std_err)
-            raise IOError('Something happened to vw')
+            raise IOError('something happened to vw, code: %d, out: %s, err: %s',
+                c.status_code, "\n", c.std_out, "\n", c.std_err)
         else:
             logging.info(
                 'vw ran sucessfully. out: %s, err: %s',
@@ -276,8 +283,8 @@ class Hybrid(BaseEstimator):
         f.close()
         #logging.info('vw input written to %s, starting testing', f.name)
         command = '{vw_binary} {vw_input} -t -p {outf} -i {vw_modelfile}'.format(
-            vw_binary=self.vw_binary, vw_input=f.name, outf=outf,
-            vw_modelfile=self.vw_modelfile)
+            vw_binary=self.vw_binary, vw_input=repr(f.name), outf=repr(outf),
+            vw_modelfile=repr(self.vw_modelfile))
         #logging.info('vw command: %s', command)
         vw_start = time.time()
         c = envoy.run(command)
@@ -286,7 +293,7 @@ class Hybrid(BaseEstimator):
             logging.error(
                 'something happened to vw, code: %d, out: %s, err: %s',
                 c.status_code, c.std_out, c.std_err)
-            raise IOError('Something happened to vw')
+            raise IOError('Something happened to vw', '-------', c.status_code, '-------', c.std_out, '--------',c.std_err)
         else:
             logging.info(
                 'vw ran sucessfully. out: %s, err: %s',

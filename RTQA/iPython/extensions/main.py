@@ -54,6 +54,8 @@ from sklearn.preprocessing import MultiLabelBinarizer
 
 from hybrid_tags import Hybrid
 
+print("In main")
+
 LOCK = Lock()
 
 #######################################

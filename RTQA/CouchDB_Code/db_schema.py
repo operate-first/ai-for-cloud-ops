@@ -41,3 +41,9 @@ tagset_schema = {
     },
     "required": ["label", "tags"]
 }
+
+f1 = open('changeset_schema', 'w')
+f2 = open('tagset_schema', 'w')
+
+json.dump(changeset_schema, f1)
+json.dump(tagset_schema, f2)

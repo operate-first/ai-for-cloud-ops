@@ -1,3 +1,8 @@
+'''
+This file defines the Praxi magic used by iPython
+
+'''
+
 import ast
 import os
 from pickle import NONE
@@ -75,7 +80,7 @@ class ExecutionMagics(Magics):
     @needs_local_scope
     @line_cell_magic
     def praxi(self,line='', cell=None, local_ns=None):
-
+        "Praxi cell magic for automated software discovery"
         # fail immediately if the given expression can't be compiled
         if line and cell:
             raise UsageError("Can't use statement directly after '%%time'!")
@@ -177,7 +182,7 @@ class ExecutionMagics(Magics):
 
         p.communicate(input=b'\n')
 
-        p2 = subprocess.Popen(['python3', os.path.join(dirname, 'tagset_gen.py'),'-c',os.path.join(dirname, 'changesets'),'-t',os.path.join(dirname, 'tagsets')], stdin=subprocess.PIPE)
+        p2 = subprocess.Popen(['python3', os.path.join(dirname, ' set_gen.py'),'-c',os.path.join(dirname, 'changesets'),'-t',os.path.join(dirname, 'tagsets')], stdin=subprocess.PIPE)
         p3 = subprocess.Popen(['python3', os.path.join(dirname, 'main.py'),'-t',os.path.join(dirname, 'demo_tagsets/sl_test_tag'),
             '-s',os.path.join(dirname, 'tagsets'),'-o',os.path.join(dirname, 'results'), '-i', os.path.join(dirname, 'iter_model.vw'), '-l'], 
             stdin=subprocess.PIPE)

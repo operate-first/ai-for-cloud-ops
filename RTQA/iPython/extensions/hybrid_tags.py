@@ -1,4 +1,5 @@
-"""Contains class and functions for Praxi algorithm"""
+"""Contains class and functions for Praxi algorithm
+"""
 # Imports
 from collections import Counter
 import logging

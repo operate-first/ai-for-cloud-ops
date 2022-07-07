@@ -43,7 +43,7 @@ class ExecutionMagics(Magics):
     def abracadabra(self, line, cell=None):
         "Magic that works both as %lcmagic and as %%lcmagic"
         if cell is None:
-            print("Called as line magi")
+            print("Called as line magic")
             return line
         else:
             print("Called as cell magic")

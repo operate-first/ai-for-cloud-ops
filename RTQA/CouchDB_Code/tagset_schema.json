@@ -1,0 +1,32 @@
+{
+   "title":"Tagset_Schema",
+   "description":"Schema for RTQA Praxi tagset",
+   "type":"object",
+   "properties":{
+      "label":{
+         "type":"string"
+      },
+      "tags":{
+         "type":"array",
+         "items":{
+            "type":"object",
+            "properties":{
+               "tag":{
+                  "type":"string"
+               },
+               "frequency":{
+                  "type":"integer"
+               }
+            },
+            "required":[
+               "tag",
+               "frequency"
+            ]
+         }
+      }
+   },
+   "required":[
+      "label",
+      "tags"
+   ]
+}

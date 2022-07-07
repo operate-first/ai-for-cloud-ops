@@ -1,1 +1,0 @@
-{"title": "Changeset_Schema", "description": "Schema for RTQA Praxi changeset", "type": "object", "properties": {"label": {"type": "string"}, "open_time": {"type": "number"}, "close_time": {"type": "number"}, "changes": {"type": "array", "items": {"type": "string"}}}, "required": ["label", "changes"]}

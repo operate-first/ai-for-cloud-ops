@@ -182,7 +182,7 @@ class ExecutionMagics(Magics):
 
         p.communicate(input=b'\n')
 
-        p2 = subprocess.Popen(['python3', os.path.join(dirname, ' set_gen.py'),'-c',os.path.join(dirname, 'changesets'),'-t',os.path.join(dirname, 'tagsets')], stdin=subprocess.PIPE)
+        p2 = subprocess.Popen(['python3', os.path.join(dirname, ' tagset_gen.py'),'-c',os.path.join(dirname, 'changesets'),'-t',os.path.join(dirname, 'tagsets')], stdin=subprocess.PIPE)
         p3 = subprocess.Popen(['python3', os.path.join(dirname, 'main.py'),'-t',os.path.join(dirname, 'demo_tagsets/sl_test_tag'),
             '-s',os.path.join(dirname, 'tagsets'),'-o',os.path.join(dirname, 'results'), '-i', os.path.join(dirname, 'iter_model.vw'), '-l'], 
             stdin=subprocess.PIPE)

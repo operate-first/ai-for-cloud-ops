@@ -1,5 +1,0 @@
-#!/bin/sh
-
-ls -la
-pwd
-sleep 1000

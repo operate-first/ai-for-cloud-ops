@@ -1,0 +1,2902 @@
+id: []
+label: pandas
+tags:
+- pyt:4061
+- test:5627
+- test_groupby.cpython-38.pyc.1405224360:2
+- test_groupby.cpython-38.pyc.140522436:3
+- test_groupby.cpython-38.pyc:6
+- test_groupby.:9
+- test_groupby:18
+- test_group:21
+- test_g:66
+- test_:2623
+- test_custom_business_day.:3
+- test_custom_business_:9
+- test_cu:18
+- test_c:318
+- test_count.py :2
+- test_count.:6
+- test_count:12
+- test_co:222
+- array:372
+- arr:389
+- test_astype.cpython-38.pyc 30:2
+- test_astype.cpython-38.pyc 3:3
+- test_astype.cpython-38.pyc :15
+- test_astype.cpython-38.pyc:30
+- test_astype.:45
+- test_as:96
+- test_a:248
+- index:763
+- test_scalar.cpython-38.pyc:2
+- test_scalar.:3
+- test_scalar:12
+- test_s:258
+- testing.py:4
+- testing.:9
+- dtype:108
+- cast:41
+- test_construct_ndarray.:3
+- test_construct_:9
+- test_construct:69
+- test_cons:72
+- test_con:114
+- __init__.py :140
+- __init__.:288
+- accessor:26
+- test_dt_accessor.cpython-38.pyc:2
+- test_dt_accessor.:3
+- test_dt:27
+- test_d:183
+- _util.cpython-38.pyc:2
+- _util.:3
+- indexe:576
+- datetime:153
+- dat:177
+- test_formats.py :9
+- test_formats.:27
+- test_format:33
+- test_f:186
+- test_indexing.py 3:5
+- test_indexing.py :19
+- test_indexing.:57
+- test_indexing:60
+- test_index:81
+- test_in:168
+- test_i:219
+- common.cpython-38.pyc.14052242651:2
+- common.cpython-38.pyc.1405224:16
+- common.cpython-38.pyc:32
+- common.:48
+- com:155
+- categor:94
+- common.py 20:2
+- common.py 2:4
+- common.py :16
+- test_iloc.cpython-38.pyc :2
+- test_iloc.cpython-38.pyc:4
+- test_iloc.:6
+- executor.cpython-38.pyc:2
+- executor.:3
+- test_clip.cpython-38.pyc :2
+- test_clip.cpython-38.pyc:4
+- test_clip.:6
+- test_clip:9
+- test_errors.cpython-38.pyc.14052243:2
+- test_errors.cpython-38.pyc:4
+- test_errors.:6
+- test_e:72
+- test_indexing_slow.cpython-38.pyc:2
+- test_indexing_slow.:3
+- extension:146
+- reduce.cpython-38.pyc:2
+- reduce.:3
+- reduc:13
+- test_reductions.cpython-38.pyc.1405224360:2
+- test_reductions.cpython-38.pyc.140522436:4
+- test_reductions.cpython-38.pyc.14052243:6
+- test_reductions.cpython-38.pyc:12
+- test_reductions.:18
+- test_reduction:21
+- test_re:141
+- test_r:174
+- ms_:2
+- test_indexing.cpython-38.pyc 2:5
+- test_indexing.cpython-38.pyc :19
+- test_indexing.cpython-38.pyc:38
+- sparse:43
+- test_combine_concat.:3
+- test_combine_:9
+- test_combine:15
+- test_com:78
+- categorical.py :2
+- categorical.:6
+- test_series.py :3
+- test_series.:9
+- test_series:21
+- test_se:87
+- test_arithmetics.:3
+- test_arithmetic:30
+- test_ar:51
+- test_fsspec.cpython-38.pyc:2
+- test_fsspec.:3
+- test_pipe.cpython-38.pyc :2
+- test_pipe.cpython-38.pyc:4
+- test_pipe.:6
+- test_pi:33
+- test_p:121
+- test_swapaxes.cpython-38.pyc:2
+- test_swapaxes.:3
+- test_swap:6
+- test_infer_objects.py :2
+- test_infer_objects.:6
+- test_infer_:12
+- test_infer:18
+- test_inf:24
+- test_xlsxwriter.cpython-38.pyc:2
+- test_xlsxwriter.:3
+- test_xl:9
+- test_x:21
+- tools.:3
+- pars:154
+- par:158
+- test_decimal.cpython-38.pyc 1:2
+- test_decimal.cpython-38.pyc:4
+- test_decimal.:6
+- test_de:42
+- test_setops.py 17:2
+- test_setops.py 1:3
+- test_setops.py :9
+- test_setops.:27
+- test_set:51
+- masked:20
+- mask:23
+- test_arithmetic.cpython-38.pyc.140522436086:2
+- test_arithmetic.cpython-38.pyc.14052243608:3
+- test_arithmetic.cpython-38.pyc.140522436:4
+- test_arithmetic.cpython-38.pyc.14052243:5
+- test_arithmetic.cpython-38.pyc.1405224:9
+- test_arithmetic.cpython-38.pyc:18
+- test_arithmetic.:27
+- format:126
+- style:41
+- test_non_unique.cpython-38.pyc:2
+- test_non_unique.:3
+- test_non:6
+- test_no:9
+- test_n:90
+- accessors.cpython-38.pyc:2
+- accessors.:3
+- html.cpython-38.pyc :2
+- html.cpython-38.pyc:4
+- html.:7
+- xml.cpython-38.pyc.14052243582:2
+- xml.cpython-38.pyc:4
+- xml.:6
+- __init__.cpython-38.pyc 16:34
+- __init__.cpython-38.pyc 1:100
+- __init__.cpython-38.pyc :140
+- __init__.cpython-38.pyc:148
+- test_shift.cpython-38.pyc.140522435:3
+- test_shift.cpython-38.pyc.14052243:4
+- test_shift.cpython-38.pyc:8
+- test_shift.:12
+- test_sh:18
+- test_describe.py :2
+- test_describe.:6
+- test_shift.cpython-38.pyc.1405224358:2
+- __init__.cpython-38.pyc 31:3
+- __init__.cpython-38.pyc 3:10
+- arraylike.cpython-38.pyc:2
+- arraylike.:3
+- timedeltas.cpython-38.pyc :3
+- timedeltas.cpython-38.pyc:6
+- timedeltas.cpython-38:7
+- timedeltas.:13
+- test_repr.cpython-38.pyc :5
+- test_repr.cpython-38.pyc:10
+- test_repr.:15
+- test_repr:18
+- test_rep:39
+- test_inference.cpython-38.pyc.1405224:2
+- test_inference.cpython-38.pyc:4
+- test_inference.:6
+- methods.cpython-38.pyc.14052243:2
+- methods.cpython-38.pyc:4
+- methods.:6
+- dtype.cpython-38.pyc :2
+- dtype.cpython-38.pyc:4
+- dtype.:6
+- ops:45
+- dispatch.cpython-38.pyc:2
+- dispatch.:3
+- disp:6
+- reshap:124
+- res:156
+- merge.:3
+- boo:36
+- test_construction.cpython-38.pyc :3
+- test_construction.cpython-38.pyc:6
+- test_construction.:9
+- test_combine_first.py :2
+- test_combine_first.:6
+- expr.:3
+- exp:9
+- __init__.py 3:8
+- __init__.cpython-38.pyc 2:6
+- test_equals.py 3:2
+- test_equals.py :5
+- test_equals.:15
+- test_equ:18
+- category.cpython-38.pyc:2
+- category.:3
+- test_time_series.cpython-38.pyc:2
+- test_time_series.:3
+- test_time_:6
+- test_time:51
+- test_ti:54
+- test_t:192
+- interval:77
+- inter:120
+- test_interval.cpython-38.pyc.140522426:2
+- test_interval.cpython-38.pyc.1405224:6
+- test_interval.cpython-38.pyc:12
+- test_interval.:18
+- test_interval:27
+- test_inter:36
+- test_inte:42
+- test_int:45
+- contexts.cpython-38.pyc:2
+- contexts.:3
+- con:164
+- num:43
+- test_astype.py 2:5
+- test_astype.py :15
+- common.cpython-38.pyc 1:2
+- common.cpython-38.pyc :16
+- test_sort_index.cpython-38.pyc.1405224:2
+- test_sort_index.cpython-38.pyc:4
+- test_sort_index.:6
+- test_sort_:15
+- test_sort:30
+- internals.py:2
+- internals.:3
+- test_util.cpython-38.pyc :2
+- test_util.cpython-38.pyc:4
+- test_util.:6
+- test_u:54
+- test_multiindex.cpython-38.pyc:2
+- test_multiindex.:3
+- test_multi:12
+- test_m:106
+- INSTALLER:2
+- test_easter.cpython-38.pyc:2
+- test_easter.:3
+- test_get.py :2
+- test_get.:6
+- test_get:36
+- test_ge:42
+- test_concat.cpython-38.pyc.140522436:2
+- test_concat.cpython-38.pyc.14052243:4
+- test_concat.cpython-38.pyc:8
+- test_concat.:12
+- test_integrity.cpython-38.pyc:2
+- test_integrity.:3
+- test_integ:6
+- _co:20
+- localization.cpython-38.pyc:2
+- localization.:3
+- test_hashing.cpython-38.pyc:2
+- test_hashing.:3
+- test_hash:6
+- test_h:33
+- test_base_indexer.cpython-38.pyc:2
+- test_base_indexer.:3
+- test_base:12
+- test_ba:18
+- test_b:54
+- shared_docs.cpython-38.pyc:2
+- shared_docs.:3
+- shared:6
+- test_json_table_schema_ext_dtype.cpython-38.pyc:2
+- test_json_table_schema_ext_dtype.:3
+- test_json_table_schema:6
+- test_json:9
+- test_j:39
+- test_cut.:3
+- test_index_new.:3
+- test_index_:9
+- concat.cpython-38.pyc 18:2
+- concat.cpython-38.pyc 1:3
+- concat.cpython-38.pyc:6
+- concat.:9
+- test_align.cpython-38.pyc.14052243:2
+- test_align.cpython-38.pyc:4
+- test_align.:6
+- test_al:18
+- test_datetimelike.py :3
+- test_datetimelike.:9
+- test_datetime:36
+- test_date:42
+- test_dat:48
+- test_indexing.py 2:4
+- datetimelike:32
+- test_indexing.cpython-38.pyc 1:7
+- index.cpython-38.pyc.1405224:2
+- index.cpython-38.pyc:4
+- index.cpython-38:5
+- index.:9
+- common.cpython-38.pyc.14052243665:3
+- common.cpython-38.pyc.140522436:8
+- common.cpython-38.pyc.14052243:14
+- datetimes.cpython-38.pyc 3:2
+- datetimes.cpython-38.pyc :3
+- datetimes.cpython-38.pyc:6
+- datetimes.:9
+- sas:40
+- sasreader.cpython-38.pyc:2
+- sasreader.:3
+- test_equals.cpython-38.pyc :5
+- test_equals.cpython-38.pyc:10
+- test_common_basic.cpython-38.pyc:2
+- test_common_basic.:3
+- test_common:21
+- test_comm:24
+- test_custom_business_hour.cpython-38.pyc:2
+- test_custom_business_hour.:3
+- concat.py :3
+- common.py 17:2
+- aggregations.py:2
+- aggregations.:3
+- aggregat:17
+- test_engines.:3
+- test_eng:6
+- test_en:9
+- test_arithmetic.cpython-38.pyc 4:2
+- test_arithmetic.cpython-38.pyc :9
+- test_datetime.py 5:2
+- test_datetime.py :5
+- test_datetime.:15
+- categorical.cpython-38.pyc.14052243:2
+- categorical.cpython-38.pyc:4
+- test_win_type.cpython-38.pyc:2
+- test_win_type.:3
+- test_w:21
+- reduction:10
+- test_reductions.py 5:2
+- test_reductions.py :6
+- test_nlargest.py :2
+- test_nlargest.:6
+- test_reindex.cpython-38.pyc.140522435:4
+- test_reindex.cpython-38.pyc.14052243:5
+- test_reindex.cpython-38.pyc:10
+- test_reindex.:15
+- test_reindex:21
+- __init__.py 31:4
+- inference.cpython-38.pyc:2
+- inference.:3
+- inf:6
+- missing.cpython-38.pyc :4
+- missing.cpython-38.pyc:8
+- missing.cpython-38:9
+- missing.:16
+- mis:19
+- test_datetime_index.cpython-38.pyc:2
+- test_datetime_index.:3
+- spss.cpython-38.pyc:2
+- spss.:3
+- times:36
+- test_timezones.cpython-38.pyc.1405224:4
+- test_timezones.cpython-38.pyc:8
+- test_timezones.:12
+- __init__.py 9:2
+- frozen.cpython-38.pyc:2
+- frozen.:3
+- construction.cpython-38.pyc.14052243:2
+- construction.cpython-38.pyc:4
+- construction.:6
+- construct:22
+- test_cython.cpython-38.pyc:2
+- test_cython.:3
+- test_cython:6
+- test_file_handling.:3
+- test_file_:6
+- test_fil:33
+- test_fi:54
+- test_value_counts.cpython-38.pyc :5
+- test_value_counts.cpython-38.pyc:10
+- test_value_counts.:15
+- test_value:21
+- test_val:39
+- test_v:45
+- test_formats.cpython-38.pyc 5:2
+- test_formats.cpython-38.pyc :9
+- test_formats.cpython-38.pyc:18
+- test_arithmetic.py 3:3
+- test_arithmetic.py :9
+- _doctools.cpython-38.pyc:2
+- _doctools.:3
+- __init__.py 6:4
+- test_unary.cpython-38.pyc :2
+- test_unary.cpython-38.pyc:4
+- test_unary.:6
+- test_unary:9
+- test_un:27
+- test_set_name.cpython-38.pyc:2
+- test_set_name.:3
+- test_set_:15
+- test_select_dtypes.cpython-38.pyc:2
+- test_select_dtypes.:3
+- test_select:6
+- test_setops.py 2:2
+- tslib:109
+- strptime.py:2
+- strptime.:3
+- str:63
+- numeric.cpython-38.pyc.14052243:3
+- numeric.cpython-38.pyc:6
+- numeric.:9
+- test_min_max.:3
+- test_mi:28
+- generic.cpython-38.pyc 3:2
+- generic.cpython-38.pyc :3
+- generic.cpython-38.pyc:6
+- generic.:9
+- test_astype.cpython-38.pyc 1:5
+- timedeltas.py :3
+- timedeltas.py:5
+- timedeltas.p:6
+- test_file_buffer_url.cpython-38.pyc:2
+- test_file_buffer_url.:3
+- test_inf.:3
+- fields.py:2
+- fields.:3
+- missing.p:7
+- __init__.py 21:2
+- __init__.py 2:11
+- test_alter_axes.cpython-38.pyc:2
+- test_alter_axes.:3
+- __init__.cpython-38.pyc 18:8
+- test_fields.cpython-38.pyc:2
+- test_fields.:3
+- test_compat.py :3
+- test_compat.:9
+- test_compa:27
+- test_comp:39
+- array.cpython-38.pyc.140522435864:2
+- array.cpython-38.pyc.14052243586:4
+- array.cpython-38.pyc.14052243:5
+- array.cpython-38.pyc:10
+- array.:15
+- lib.py:2
+- lib.p:3
+- lib.:4
+- lib:15
+- period.cpython-38.pyc :2
+- period.cpython-38.pyc:4
+- period.cpython-38:5
+- period.:10
+- test_to_numpy.cpython-38.pyc :2
+- test_to_numpy.cpython-38.pyc:4
+- test_to_numpy.:6
+- test_to_num:9
+- test_to_:87
+- test_to:93
+- test_value_counts.cpython-38.pyc 3:2
+- test_stack_unstack.:3
+- test_sta:9
+- test_st:48
+- base.cpython-38.pyc.140522435:2
+- base.cpython-38.pyc.14052243:7
+- base.cpython-38.pyc.1405224:8
+- base.cpython-38.pyc:16
+- base.cpython-38:17
+- base.:27
+- test_categorical.cpython-38.pyc.140522426:3
+- test_categorical.cpython-38.pyc.1405224:7
+- test_categorical.cpython-38.pyc:14
+- test_categorical.:21
+- test_categor:24
+- test_cat:30
+- test_ca:39
+- __init__.cpython-38.pyc 35:2
+- date_converters.:3
+- date_conver:5
+- _xlwt.cpython-38.pyc:2
+- _xlwt.:3
+- _xl:9
+- config.cpython-38.pyc:2
+- config.:3
+- config:14
+- test_categorical.cpython-38.pyc 4:2
+- test_categorical.cpython-38.pyc :7
+- test_ops.cpython-38.pyc :5
+- test_ops.cpython-38.pyc:10
+- test_ops.:15
+- test_op:24
+- test_o:51
+- times.cpython-38.pyc:2
+- times.:3
+- interval.py :2
+- interval.py:3
+- interval.:8
+- test_count.cpython-38.pyc :2
+- test_count.cpython-38.pyc:4
+- test_fillna.cpython-38.pyc.140522436:2
+- test_fillna.cpython-38.pyc.14052243:7
+- test_fillna.cpython-38.pyc:14
+- test_fillna.:21
+- test_count_with_level_deprecated.cpython-38.pyc:2
+- test_count_with_level_deprecated.:3
+- test_util.cpython-38.pyc.140522436:2
+- test_fiscal.cpython-38.pyc:2
+- test_fiscal.:3
+- conftest.cpython-38.pyc 6:3
+- conftest.cpython-38.pyc :23
+- conftest.cpython-38.pyc:45
+- conftest.:68
+- test_usecols_basic.:3
+- test_use:6
+- expanding.cpython-38.pyc:2
+- expanding.:3
+- test_factorize.py 1:2
+- test_factorize.py :3
+- test_factorize.:9
+- test_series.cpython-38.pyc.140522436:2
+- test_series.cpython-38.pyc.14052243:3
+- test_series.cpython-38.pyc:6
+- test_asof.py :3
+- test_asof.:9
+- _exceptions.:3
+- test_isna.:3
+- test_is:30
+- __init__.cpython-38.pyc 17:52
+- test_datetimelike.cpython-38.pyc :3
+- test_datetimelike.cpython-38.pyc:6
+- numeric.py :3
+- test_unsupported.cpython-38.pyc:2
+- test_unsupported.:3
+- test_uns:6
+- test_numba.py 7:2
+- test_numba.py :5
+- test_numba.:15
+- test_num:30
+- test_nu:36
+- test_period.py 5:3
+- test_period.py :5
+- test_period.:15
+- test_period:24
+- test_compat.cpython-38.pyc :3
+- test_compat.cpython-38.pyc:6
+- test_business_year.cpython-38.pyc:2
+- test_business_year.:3
+- test_business_:15
+- test_observance.cpython-38.pyc:2
+- test_observance.:3
+- test_ob:6
+- test_constructors.py 2:5
+- test_constructors.py :17
+- test_constructors.:51
+- date_conversions.:2
+- generic.py :3
+- test_invalid_arg.cpython-38.pyc:2
+- test_invalid_arg.:3
+- test_invalid:6
+- test_frame_color.:3
+- test_frame_:24
+- test_frame:30
+- test_fr:54
+- test_index.py 1:2
+- test_index.py :3
+- test_index.:9
+- test_timedelta.cpython-38.pyc.1405224:3
+- test_timedelta.cpython-38.pyc:6
+- test_timedelta.:9
+- test_timedelta:21
+- test_repeat.cpython-38.pyc :4
+- test_repeat.cpython-38.pyc:8
+- test_repeat.:12
+- test_function.py 6:2
+- test_function.py :5
+- test_function.:15
+- test_object.cpython-38.pyc:2
+- test_object.:3
+- nattype.py:2
+- nattype.p:3
+- nattype.:4
+- test_show_versions.:3
+- test_week.cpython-38.pyc:2
+- test_week.:3
+- test_to_numpy.cpython-38.pyc.14052243:2
+- test_label_or_level_utils.cpython-38.pyc:2
+- test_label_or_level_utils.:3
+- test_l:45
+- test_factorize.cpython-38.pyc.140522435:2
+- test_factorize.cpython-38.pyc.14052243:3
+- test_factorize.cpython-38.pyc:6
+- groupby.py:5
+- groupby.:12
+- test_xs.py :2
+- test_xs.:6
+- flags.:3
+- fla:4
+- test_groupby.cpython-38.pyc :3
+- test_sql.cpython-38.pyc:2
+- test_sql.:3
+- test_sparse.cpython-38.pyc:2
+- test_sparse.:3
+- test_sparse:6
+- test_sp:12
+- test_apply.cpython-38.pyc.140522436:2
+- test_apply.cpython-38.pyc:4
+- test_apply.:6
+- test_apply:9
+- test_app:27
+- test_ap:50
+- test_base.py :3
+- test_base.:9
+- test_conversion.cpython-38.pyc.140522435:2
+- test_conversion.cpython-38.pyc.14052243:3
+- test_conversion.cpython-38.pyc:6
+- test_conversion.:9
+- test_conver:27
+- info.cpython-38.pyc:2
+- info.:3
+- test_value_counts.cpython-38.pyc.140522435:3
+- test_value_counts.cpython-38.pyc.14052243:4
+- test_value_counts.cpython-38.pyc.1405224:5
+- test_unique.py :3
+- test_unique.:9
+- test_uni:12
+- test_pivot_multilevel.cpython-38.pyc:2
+- test_pivot_multilevel.:3
+- test_pivot:6
+- parsers.py:2
+- parsers.:3
+- test_config.cpython-38.pyc:2
+- test_config.:3
+- array.cpython-38.pyc.140522435863:2
+- test_indexers.:3
+- test_arithmetic.cpython-38.pyc.140522426702:2
+- test_arithmetic.cpython-38.pyc.14052242670:3
+- test_arithmetic.cpython-38.pyc.140522426:4
+- latex.:4
+- latex:6
+- common.cpython-38.pyc.1405224357:2
+- common.cpython-38.pyc.140522435:5
+- test_setops.cpython-38.pyc :9
+- test_setops.cpython-38.pyc:18
+- test_month.:3
+- test_mon:9
+- test_mo:18
+- test_backend.cpython-38.pyc:2
+- test_backend.:3
+- test_conversion.py :3
+- test_keys.cpython-38.pyc:2
+- test_keys.:3
+- test_register_accessor.cpython-38.pyc:2
+- test_register_accessor.:3
+- test_equals.cpython-38.pyc 2:2
+- test_period_index.:3
+- test_period_:9
+- array_:26
+- take.cpython-38.pyc:2
+- take.:3
+- test_can_hold_element.:3
+- test_rank.cpython-38.pyc 1:3
+- test_rank.cpython-38.pyc:6
+- test_rank.:9
+- test_ran:12
+- test_constructors.cpython-38.pyc.1405224360:2
+- test_constructors.cpython-38.pyc.140522436:7
+- test_constructors.cpython-38.pyc.14052243:14
+- test_constructors.cpython-38.pyc.1405224:17
+- test_constructors.cpython-38.pyc:34
+- test_cat_accessor.cpython-38.pyc:2
+- test_cat_accessor.:3
+- test_reindex_like.py 1:2
+- test_reindex_like.:6
+- __init__.cpython-38.pyc 40:2
+- __init__.cpython-38.pyc 4:8
+- numeric.cpython-38.pyc :3
+- test_base.cpython-38.pyc.14052243606:2
+- test_base.cpython-38.pyc.140522436:3
+- test_base.cpython-38.pyc:6
+- test_cumulative.cpython-38.pyc.14052243:2
+- test_cumulative.cpython-38.pyc:4
+- test_cumulative.:6
+- dim2.cpython-38.pyc:2
+- dim2.:3
+- range:20
+- test_tooltip.cpython-38.pyc:2
+- test_tooltip.:3
+- test_tool:6
+- test_misc.cpython-38.pyc.14052243:3
+- test_misc.cpython-38.pyc:6
+- test_misc.:9
+- test_mis:24
+- test_join.py 1:6
+- test_join.py :10
+- test_join.:30
+- getitem.cpython-38.pyc:2
+- getitem.:3
+- indexers.:3
+- test_to_datetime.:3
+- test_to_d:12
+- test_repr.py 1:3
+- test_repr.py :5
+- test_delitem.cpython-38.pyc 20:2
+- test_delitem.cpython-38.pyc:4
+- test_delitem.:6
+- test_del:12
+- test_holiday.cpython-38.pyc:2
+- test_holiday.:3
+- categorical.cpython-38.pyc :2
+- timeseries.cpython-38.pyc:2
+- timeseries.:3
+- test_transpose.cpython-38.pyc.140522435:2
+- test_transpose.cpython-38.pyc:4
+- test_transpose.:6
+- test_trans:9
+- test_tr:15
+- _version.cpython-38.pyc:2
+- _version.:3
+- base.cpython-38.pyc.14052243495:3
+- test_replace.py :3
+- test_replace.:9
+- test_arrow_compat.cpython-38.pyc.14052243608:2
+- test_arrow_compat.cpython-38.pyc:4
+- test_arrow_compat.:6
+- test_arr:18
+- masked.:3
+- datetimelike.cpython-38.pyc 4:2
+- datetimelike.cpython-38.pyc :3
+- datetimelike.cpython-38.pyc:6
+- datetimelike.:9
+- test_multilevel.cpython-38.pyc:2
+- test_multilevel.:3
+- test_algos.cpython-38.pyc :2
+- test_algos.cpython-38.pyc:4
+- test_algos.:6
+- test_constructors.cpython-38.pyc 2:3
+- test_constructors.cpython-38.pyc :17
+- missing.py 5:2
+- missing.py :4
+- missing.py:6
+- test_interval.cpython-38.pyc :6
+- test_freq_attr.cpython-38.pyc.140522436:2
+- test_freq_attr.cpython-38.pyc.14052243:3
+- test_freq_attr.cpython-38.pyc:6
+- test_freq_attr.:9
+- test_freq_:12
+- test_freq:15
+- test_duplicated.cpython-38.pyc.140522436:2
+- test_duplicated.cpython-38.pyc:4
+- test_duplicated.:6
+- test_duplicate:12
+- test_missing.py :5
+- test_missing.:15
+- test_assert_produces_warning.cpython-38.pyc:2
+- test_assert_produces_warning.:3
+- test_assert_:30
+- test_ass:33
+- test_function.cpython-38.pyc 5:2
+- test_function.cpython-38.pyc :5
+- test_function.cpython-38.pyc:10
+- test_diff.py :2
+- test_diff.:6
+- test_di:12
+- timezones.py:2
+- timezones.p:3
+- timezones.:4
+- _table_schema.cpython-38.pyc:2
+- _table_schema.:3
+- test_combine.cpython-38.pyc 1:2
+- test_combine.cpython-38.pyc:4
+- test_combine.:6
+- __init__.cpython-38.pyc 5:4
+- test_comparison.py 1:2
+- test_comparison.py :3
+- test_comparison.:9
+- test_comparison:12
+- test_compar:18
+- test_user_agent.cpython-38.pyc:2
+- test_user_agent.:3
+- test_empty.cpython-38.pyc :2
+- test_empty.cpython-38.pyc:4
+- test_empty.:6
+- test_formats.cpython-38.pyc.140522436:4
+- test_formats.cpython-38.pyc.14052243:7
+- test_formats.cpython-38.pyc.1405224:9
+- datetimes.cpython-38.pyc.14052243:2
+- datetimes.cpython-38.pyc.1405224:3
+- test_xml.cpython-38.pyc:2
+- test_xml.:3
+- test_to_dict.cpython-38.pyc.1405224:2
+- test_to_dict.cpython-38.pyc:4
+- test_to_dict.:6
+- test_to_dict:9
+- _base.:3
+- ops.cpython-38.pyc :4
+- ops.cpython-38.pyc:8
+- ops.cpython-38:9
+- ops.:15
+- test_misc.py :3
+- string:60
+- test_warnings.cpython-38.pyc:2
+- test_warnings.:3
+- base_:26
+- test_indexing.cpython-38.pyc.140522436326:2
+- test_indexing.cpython-38.pyc.140522436:10
+- test_indexing.cpython-38.pyc.14052243:17
+- test_indexing.cpython-38.pyc.1405224:19
+- resample.:3
+- test_index.cpython-38.pyc :3
+- test_index.cpython-38.pyc:6
+- test_truncate.cpython-38.pyc.1405224:2
+- test_truncate.cpython-38.pyc:4
+- test_truncate.:6
+- test_validate.cpython-38.pyc.14052243:2
+- test_validate.cpython-38.pyc:4
+- test_validate.:6
+- test_validate:18
+- test_json_table_schema.cpython-38.pyc:2
+- test_json_table_schema.:3
+- conftest.cpython-38.pyc 4:7
+- test_timezones.py 1:2
+- test_timezones.py :4
+- test_indexing.py 12:3
+- test_indexing.py 1:6
+- test_getitem.cpython-38.pyc.140522436:2
+- test_getitem.cpython-38.pyc.14052243:3
+- test_getitem.cpython-38.pyc:6
+- test_getitem.:9
+- test_reindex.cpython-38.pyc :5
+- test_interpolate.cpython-38.pyc :2
+- test_interpolate.cpython-38.pyc:4
+- test_interpolate.:6
+- accessor.py :3
+- accessor.:9
+- test_header.cpython-38.pyc:2
+- test_header.:3
+- test_head:9
+- __init__.py 14:3
+- __init__.py 1:14
+- test_complex.cpython-38.pyc:2
+- test_complex.:3
+- __init__.py 4:3
+- test_read.cpython-38.pyc:2
+- test_read.:3
+- test_read:15
+- series.cpython-38.pyc:2
+- series.:3
+- __init__.cpython-38.pyc.1405224359:2
+- __init__.cpython-38.pyc.140522435:4
+- __init__.cpython-38.pyc.14052243:8
+- test_pickle.cpython-38.pyc.14052243606:2
+- test_pickle.cpython-38.pyc.1405224360:4
+- test_pickle.cpython-38.pyc.140522436:5
+- test_pickle.cpython-38.pyc.14052243:7
+- test_pickle.cpython-38.pyc:14
+- test_pickle.:21
+- groupby.cpython-38.pyc.14052242:2
+- groupby.cpython-38.pyc.1405224:3
+- groupby.cpython-38.pyc:6
+- groupby.cpython-38:7
+- test_business_month.cpython-38.pyc:2
+- test_business_month.:3
+- _misc.cpython-38.pyc:2
+- _misc.:3
+- _mi:6
+- test_infer_datetimelike.cpython-38.pyc:2
+- test_infer_datetimelike.:3
+- test_infer_d:6
+- test_float.cpython-38.pyc:2
+- test_float.:3
+- test_float:9
+- test_fl:12
+- test_encoding.cpython-38.pyc:2
+- test_encoding.:3
+- __init__.cpython-38.pyc 7:4
+- test_missing.py 3:2
+- test_unique.cpython-38.pyc.14052243:3
+- test_unique.cpython-38.pyc:6
+- casting.cpython-38.pyc:2
+- casting.:3
+- test_frame_subplots.cpython-38.pyc:2
+- test_frame_subplots.:3
+- array.py :5
+- test_drop.cpython-38.pyc :3
+- test_drop.cpython-38.pyc:6
+- test_drop.:9
+- test_drop:27
+- test_store.:3
+- test_combine.cpython-38.pyc.140522435:2
+- test_iteration.cpython-38.pyc :2
+- test_iteration.cpython-38.pyc:4
+- test_iteration.:6
+- test_iterat:9
+- test_ite:12
+- conftest.cpython-38.pyc 19:2
+- conftest.cpython-38.pyc 1:6
+- __init__.cpython-38.pyc 15:3
+- latex.cpython-38.pyc:2
+- test_ufunc.cpython-38.pyc.14052243:2
+- test_ufunc.cpython-38.pyc:4
+- test_ufunc.:6
+- test_values.py :2
+- test_values.:6
+- test_delete.cpython-38.pyc.14052243:2
+- test_delete.cpython-38.pyc:4
+- test_delete.:6
+- _odswriter.cpython-38.pyc:2
+- _odswriter.:3
+- _od:6
+- style.cpython-38.pyc :2
+- style.cpython-38.pyc:4
+- style.:6
+- test_sort_values.cpython-38.pyc.1405224:3
+- test_sort_values.cpython-38.pyc:6
+- test_sort_values.:9
+- conftest.py 8:2
+- conftest.py :23
+- test_datetime.py 1:2
+- test_errors.cpython-38.pyc :2
+- test_to_timestamp.py :2
+- test_to_timestamp.:6
+- test_to_time:12
+- test_copy.cpython-38.pyc :3
+- test_copy.cpython-38.pyc:6
+- test_copy.:9
+- test_compare.py :2
+- test_compare.:6
+- test_cumulative.cpython-38.pyc :2
+- test_str_accessor.cpython-38.pyc:2
+- test_str_accessor.:3
+- test_str:27
+- generic.cpython-38.pyc.1405224269:2
+- generic.cpython-38.pyc.1405224:3
+- test_validate_inclusive.cpython-38.pyc:2
+- test_validate_inclusive.:3
+- test_validate_:12
+- test_copy.cpython-38.pyc.14052243:3
+- test_comparison.cpython-38.pyc :3
+- test_comparison.cpython-38.pyc:6
+- test_unstack.cpython-38.pyc:2
+- test_unstack.:3
+- sorting.cpython-38.pyc:2
+- sorting.:3
+- test_common.cpython-38.pyc.14052243606:2
+- test_common.cpython-38.pyc.1405224360:3
+- test_common.cpython-38.pyc.140522436:4
+- test_common.cpython-38.pyc.14052243:6
+- test_common.cpython-38.pyc:12
+- test_common.:18
+- test_npfuncs.cpython-38.pyc :3
+- test_npfuncs.cpython-38.pyc:6
+- test_npfuncs.:9
+- test_reductions.py 6:2
+- test_copy.cpython-38.pyc 2:2
+- test_quantile.py :3
+- test_quantile.:9
+- test_qua:12
+- test_qu:18
+- test_q:21
+- compat.cpython-38.pyc :2
+- compat.cpython-38.pyc:4
+- compat.:6
+- test_python_parser_only.cpython-38.pyc:2
+- test_python_parser_only.:3
+- test_pyt:6
+- test_py:7
+- test_getitem.cpython-38.pyc 1:2
+- test_getitem.cpython-38.pyc :3
+- testing.cpython-38.pyc 4:2
+- testing.cpython-38.pyc:4
+- testing.cpython-38:5
+- test_interpolate.cpython-38.pyc.1405224:2
+- test_count.cpython-38.pyc.14052243:2
+- test_equivalence.cpython-38.pyc:2
+- test_equivalence.:3
+- test_setops.cpython-38.pyc.140522436:6
+- test_setops.cpython-38.pyc.14052243:9
+- test_to_xarray.cpython-38.pyc:2
+- test_to_xarray.:3
+- test_to_x:6
+- test_assert_almost_equal.:3
+- test_assert_a:6
+- test_infer_dtype.cpython-38.pyc:2
+- test_infer_dtype.:3
+- test_isin.cpython-38.pyc.140522436:2
+- test_isin.cpython-38.pyc.14052243:3
+- test_isin.cpython-38.pyc:6
+- test_isin.:9
+- test_custom_business_month.cpython-38.pyc:2
+- test_custom_business_month.:3
+- test_insert.py 4:2
+- test_insert.py :4
+- test_insert.:12
+- test_matplotlib.:3
+- test_mat:9
+- test_ma:30
+- test_map.cpython-38.pyc.14052243:2
+- test_map.cpython-38.pyc:4
+- test_map.:6
+- test_compression.cpython-38.pyc :3
+- test_compression.cpython-38.pyc:6
+- test_compression.:9
+- core.cpython-38.pyc:2
+- core.:3
+- test_asof.cpython-38.pyc :3
+- test_asof.cpython-38.pyc:6
+- test_xlrd.cpython-38.pyc:2
+- test_xlrd.:3
+- test_allowlist.:3
+- common.cpython-38.pyc.1405224361:2
+- test_asof.cpython-38.pyc.140522435:2
+- test_asof.cpython-38.pyc.14052243:3
+- test_assert_attr_equal.cpython-38.pyc:2
+- test_assert_attr_equal.:3
+- test_base.cpython-38.pyc :3
+- test_compression.py :3
+- test_can_hold_element.cpython-38.pyc:2
+- test_decimal.py 1:2
+- test_reset_index.cpython-38.pyc.140522435:2
+- test_reset_index.cpython-38.pyc:4
+- test_reset_index.:6
+- test_res:21
+- test_indexing.cpython-38.pyc 108:3
+- __init__.py 15:2
+- test_quarter.cpython-38.pyc:2
+- test_quarter.:3
+- test_rename_axis.cpython-38.pyc.14052243:2
+- test_rename_axis.cpython-38.pyc:4
+- test_rename_axis.:6
+- test_rename:12
+- test_ren:15
+- test_str.cpython-38.pyc:2
+- test_str.:3
+- _openpyxl.cpython-38.pyc:2
+- _openpyxl.:3
+- _op:5
+- test_interval.cpython-38.pyc.140522435:2
+- test_interval.cpython-38.pyc.14052243:4
+- test_autocorr.cpython-38.pyc:2
+- test_autocorr.:3
+- test_numba.py 3:2
+- test_getitem.py 12:2
+- test_getitem.py :3
+- test_missing.cpython-38.pyc.140522436:3
+- test_missing.cpython-38.pyc.14052243:4
+- test_missing.cpython-38.pyc.1405224:5
+- test_missing.cpython-38.pyc:10
+- arrays.p:4
+- arrays.:7
+- indexing.py:3
+- indexing.:8
+- test_first_and_last.cpython-38.pyc:2
+- test_first_and_last.:3
+- test_first_:6
+- test_snap.:3
+- test_skiprows.:3
+- test_apply.cpython-38.pyc :2
+- test_format.py 1:2
+- test_format.:6
+- test_explode.py :2
+- test_explode.:6
+- test_exp:12
+- test_ex:24
+- string_:14
+- groupby.py :3
+- test_string_arrow.cpython-38.pyc:2
+- test_string_arrow.:3
+- test_string_arr:6
+- test_string:21
+- tools.cpython-38.pyc:2
+- test_dtypes.py :6
+- test_dtypes.:18
+- test_dtypes:21
+- test_dtype:24
+- test_na_scalar.cpython-38.pyc:2
+- test_na_scalar.:3
+- test_na_:9
+- test_na:21
+- docstrings.cpython-38.pyc:2
+- docstrings.:3
+- doc:6
+- test_frame_legend.cpython-38.pyc:2
+- test_frame_legend.:3
+- holiday.:3
+- test_hist_method.:3
+- test_hist_:6
+- test_hi:9
+- test_iteration.py :2
+- test_numpy_compat.:3
+- test_numpy:9
+- test_nth.cpython-38.pyc:2
+- test_nth.:3
+- test_validate_args.:3
+- test_validate_args:6
+- test_categorical.py :7
+- test_rolling_functions.cpython-38.pyc:2
+- test_rolling_functions.:3
+- test_rolling_:9
+- test_rolling:12
+- test_ro:21
+- test_formats.py 5:2
+- test_to_period.cpython-38.pyc :2
+- test_to_period.cpython-38.pyc:4
+- test_to_period.:6
+- test_sample.cpython-38.pyc.14052243:2
+- test_sample.cpython-38.pyc:4
+- test_sample.:6
+- test_sa:15
+- test_libgroupby.cpython-38.pyc:2
+- test_libgroupby.:3
+- test_lib:15
+- test_li:18
+- html.cpython-38.pyc.140522435823:2
+- test_api.cpython-38.pyc.140522436:4
+- test_api.cpython-38.pyc.14052243:5
+- test_api.cpython-38.pyc.1405224:7
+- test_api.cpython-38.pyc:15
+- test_api.:23
+- test_frequencies.:3
+- test_apply_mutate.:3
+- test_construction.cpython-38.pyc.1405224:3
+- test_dtypes.cpython-38.pyc :6
+- test_dtypes.cpython-38.pyc:12
+- test_find_replace.cpython-38.pyc:2
+- test_find_replace.:3
+- test_find_:6
+- test_fin:9
+- ops.cpython-38.pyc.140522435:2
+- ops.cpython-38.pyc.14052243:3
+- ops.cpython-38.pyc.1405224:4
+- test_internals.cpython-38.pyc:2
+- test_internals.:3
+- test_common.py 1:2
+- test_common.py :6
+- test_indexing.cpython-38.pyc.14052243570:2
+- test_indexing.cpython-38.pyc.140522435:7
+- test_constructors.py 1:4
+- test_safe_import.cpython-38.pyc:2
+- test_safe_import.:3
+- test_generic.py :2
+- test_generic.:6
+- config_init.cpython-38.pyc:2
+- config_init.:3
+- test_fillna.cpython-38.pyc 1:5
+- test_fillna.cpython-38.pyc :7
+- test_external_block.:3
+- test_exte:6
+- test_ext:12
+- _io.:3
+- test_dtypes.cpython-38.pyc.1405224358:3
+- test_dtypes.cpython-38.pyc.14052243:5
+- test_dtypes.cpython-38.pyc.1405224:6
+- generate_legacy_storage_files.:3
+- test_assert_frame_equal.cpython-38.pyc:2
+- test_assert_frame_equal.:3
+- test_to_string.:3
+- test_to_s:6
+- np_datetime.c:2
+- np_datetime.:6
+- np_datetime:8
+- test_timegrouper.cpython-38.pyc:2
+- test_timegrouper.:3
+- test_series_transform.:3
+- test_series_:12
+- common.cpython-38.pyc 58:2
+- common.cpython-38.pyc 5:3
+- test_libsparse.cpython-38.pyc:2
+- test_libsparse.:3
+- test_nunique.cpython-38.pyc :2
+- test_nunique.cpython-38.pyc:4
+- test_nunique.:6
+- test_reduction.cpython-38.pyc:2
+- test_reduction.:3
+- test_datetimes.cpython-38.pyc 1:2
+- test_datetimes.cpython-38.pyc:4
+- test_datetimes.:6
+- readers.cpython-38.pyc:2
+- readers.:3
+- test_numba.cpython-38.pyc.14052243:5
+- test_numba.cpython-38.pyc:10
+- object:14
+- obj:15
+- test_indexing.cpython-38.pyc.14052243580:2
+- test_asfreq.cpython-38.pyc.14052243:3
+- test_asfreq.cpython-38.pyc:6
+- test_asfreq.:9
+- test_common.py 2:3
+- test_xport.cpython-38.pyc:2
+- test_xport.:3
+- test_interval.py 11:2
+- test_interval.py :6
+- object_array.:3
+- api.cpython-38.pyc 2:4
+- api.cpython-38.pyc :9
+- api.cpython-38.pyc:15
+- api.:24
+- test_period_range.:3
+- test_period.cpython-38.pyc :5
+- test_period.cpython-38.pyc:10
+- frame.cpython-38.pyc:2
+- frame.:3
+- indexing.py :2
+- _decorators.cpython-38.pyc:2
+- _decorators.:3
+- test_convert.cpython-38.pyc :2
+- test_convert.cpython-38.pyc:4
+- test_convert.:6
+- test_convert:18
+- test_info.cpython-38.pyc:2
+- test_info.:3
+- latex_:2
+- __init__.cpython-38.pyc 69:2
+- __init__.cpython-38.pyc 6:3
+- extension.cpython-38.pyc:2
+- extension.:3
+- test_rendering.:3
+- test_reindex.py :5
+- test_pairwise.:3
+- test_pa:36
+- hashtable.p:3
+- hashtable.:4
+- hashtable:6
+- test_matmul.cpython-38.pyc.14052243:2
+- test_matmul.cpython-38.pyc:4
+- test_matmul.:6
+- test_cython_aggregations.:3
+- test_append.py :5
+- test_append.:15
+- test_append:18
+- test_swaplevel.:3
+- test_analytics.cpython-38.pyc :2
+- test_analytics.cpython-38.pyc:4
+- test_analytics.:6
+- test_an:12
+- test_data_list.cpython-38.pyc:2
+- test_data_list.:3
+- test_data:6
+- test_expressions.cpython-38.pyc:2
+- test_expressions.:3
+- test_split_partition.cpython-38.pyc:2
+- test_split_partition.:3
+- test_take.cpython-38.pyc :5
+- test_take.cpython-38.pyc:10
+- test_take.:15
+- test_json.cpython-38.pyc:2
+- test_json.:3
+- test_business_day.cpython-38.pyc:2
+- test_business_day.:3
+- test_offsets_properties.cpython-38.pyc:2
+- test_offsets_properties.:3
+- test_offsets:6
+- test_accessor.cpython-38.pyc:2
+- test_accessor.:3
+- test_reindex.cpython-38.pyc 3:2
+- test_is_full.:3
+- test_is_:15
+- array.cpython-38.pyc :5
+- test_reset_index.cpython-38.pyc :2
+- test_logical_ops.py :2
+- test_logical_ops.:6
+- test_logical:9
+- test_lo:21
+- scope.cpython-38.pyc:2
+- scope.:3
+- arrow_parser_wrapper.cpython-38.pyc:2
+- arrow_parser_wrapper.:3
+- test_query_eval.cpython-38.pyc:2
+- test_query_eval.:3
+- test_sort_values.py :3
+- invalid.cpython-38.pyc:2
+- invalid.:3
+- test_misc.cpython-38.pyc :3
+- test_converter.cpython-38.pyc:2
+- test_converter.:3
+- test_converter:6
+- test_explode.cpython-38.pyc.14052243:2
+- test_explode.cpython-38.pyc:4
+- test_other.:3
+- test_append_common.:3
+- test_where.py :3
+- test_where.:9
+- test_datetime64.cpython-38.pyc:2
+- test_datetime64.:3
+- test_filters.:3
+- test_filter:6
+- test_tz_localize.cpython-38.pyc :2
+- test_tz_localize.cpython-38.pyc:4
+- test_tz_localize.:6
+- test_tz_:9
+- test_to_html.cpython-38.pyc:2
+- test_to_html.:3
+- test_quoting.:3
+- test_index_as_string.cpython-38.pyc:2
+- test_index_as_string.:3
+- test_style.py 5:2
+- test_style.py :3
+- test_style.:9
+- test_reindex_like.cpython-38.pyc 1:2
+- test_reindex_like.cpython-38.pyc:4
+- test_writers.cpython-38.pyc:2
+- test_writers.:3
+- test_is_unique.:3
+- indexing.cpython-38.pyc.14052242693:2
+- indexing.cpython-38.pyc:4
+- indexing.cpython-38:5
+- test_tz_convert.:3
+- test_sort_index.py :2
+- test_join.py 114:2
+- ultrajson:3
+- test_dtypes.py 5:2
+- test_rank.cpython-38.pyc.14052243:3
+- string_arrow.cpython-38.pyc:2
+- string_arrow.:3
+- test_pairwise.cpython-38.pyc:2
+- test_shares_memory.cpython-38.pyc:2
+- test_shares_memory.:3
+- test_groupby.py 4:2
+- test_groupby.py :3
+- test_arithmetic.cpython-38.pyc 3:2
+- test_argsort.cpython-38.pyc:2
+- test_argsort.:3
+- test_array_ops.cpython-38.pyc:2
+- test_array_ops.:3
+- test_array_:6
+- test_array:12
+- test_melt.:3
+- test_me:18
+- test_comment.:3
+- test_numba.cpython-38.pyc :5
+- melt.cpython-38.pyc:2
+- melt.:3
+- string.cpython-38.pyc:2
+- string.:3
+- test_multi.cpython-38.pyc:2
+- test_multi.:3
+- test_compression.cpython-38.pyc.1405224359:2
+- test_compression.cpython-38.pyc.14052243:3
+- reshaping.:3
+- accessor.cpython-38.pyc.14052243:3
+- accessor.cpython-38.pyc:6
+- test_index_new.cpython-38.pyc:2
+- test_join.cpython-38.pyc.14052243615:2
+- test_join.cpython-38.pyc.140522436:8
+- test_join.cpython-38.pyc.14052243:10
+- test_join.cpython-38.pyc:20
+- test_sort.cpython-38.pyc:2
+- test_sort.:3
+- test_lexsort.:3
+- test_truncate.py :2
+- test_verbose.cpython-38.pyc:2
+- test_verbose.:3
+- concat.py 2:2
+- test_chaining_and_caching.cpython-38.pyc.14052243:2
+- test_chaining_and_caching.cpython-38.pyc:4
+- test_chaining_and_caching.:6
+- test_ch:12
+- test_take.cpython-38.pyc.140522436:2
+- test_take.cpython-38.pyc.14052243:4
+- test_take.cpython-38.pyc.1405224:5
+- base.py :8
+- base.py:9
+- base.p:10
+- test_crosstab.cpython-38.pyc:2
+- test_crosstab.:3
+- hashtable_:2
+- conftest.py 6:2
+- _validators.cpython-38.pyc:2
+- _validators.:3
+- test_to_timestamp.cpython-38.pyc.140522435:2
+- test_to_timestamp.cpython-38.pyc:4
+- test_partial_indexing.cpython-38.pyc:2
+- test_partial_indexing.:3
+- test_partial_:9
+- test_partial:15
+- test_par:30
+- doc.cpython-38.pyc:2
+- doc.:3
+- test_repeat.cpython-38.pyc 1:3
+- test_api.cpython-38.pyc :8
+- test_is_full.cpython-38.pyc:2
+- arrays.cpython-38:3
+- excel.:3
+- test_parsing.:3
+- test_pars:12
+- test_astype.cpython-38.pyc 2:3
+- construction.py :2
+- compat.cpython-38.pyc.1405224:2
+- _xlrd.:3
+- test_duplicated.py :2
+- test_unary.cpython-38.pyc.14052243:2
+- test_shift.cpython-38.pyc :4
+- test_datetime.cpython-38.pyc.140522436:2
+- test_datetime.cpython-38.pyc.14052243:5
+- test_datetime.cpython-38.pyc:10
+- test_hist_box_by.cpython-38.pyc:2
+- test_hist_box_by.:3
+- test_ops.cpython-38.pyc.14052243589:2
+- test_ops.cpython-38.pyc.14052243:5
+- var_.cpython-38.pyc:2
+- var_.:3
+- test_read_errors.cpython-38.pyc:2
+- test_read_errors.:3
+- test_read_:6
+- test_numeric.cpython-38.pyc :2
+- test_numeric.cpython-38.pyc:4
+- test_numeric.:6
+- base.cpython-38.pyc 1:3
+- base.cpython-38.pyc :8
+- test_arithmetics.cpython-38.pyc:2
+- test_loc.cpython-38.pyc :2
+- test_loc.cpython-38.pyc:4
+- test_loc.:6
+- test_loc:9
+- test_style.cpython-38.pyc.14052243:2
+- test_style.cpython-38.pyc.1405224:3
+- test_style.cpython-38.pyc:6
+- test_matmul.py 2:2
+- offsets.cpython-38.pyc:2
+- offsets.cpython-38:3
+- offsets.:6
+- test_transpose.py :2
+- conftest.cpython-38.pyc.140522436413:2
+- conftest.cpython-38.pyc.14052243641:3
+- conftest.cpython-38.pyc.140522436:10
+- conftest.cpython-38.pyc.14052243:17
+- conftest.cpython-38.pyc.1405224:22
+- __init__.py 68:2
+- _xlrd.cpython-38.pyc:2
+- test_common.cpython-38.pyc 1:3
+- test_common.cpython-38.pyc :6
+- arrays.cpython-38.pyc:2
+- test_isin.cpython-38.pyc :3
+- test_eval.:3
+- interval.cpython-38.pyc.14052243:2
+- interval.cpython-38.pyc:4
+- interval.cpython-38:5
+- constructors.cpython-38.pyc:2
+- constructors.:3
+- conftest.cpython-38.pyc 12:2
+- test_values.cpython-38.pyc.14052243:2
+- test_values.cpython-38.pyc:4
+- test_arithmetic.py 6:2
+- test_find_common_type.:3
+- test_deprecate_nonkeyword_arguments.cpython-38.pyc:2
+- test_deprecate_nonkeyword_arguments.:3
+- test_deprecate_:6
+- test_deprecate:18
+- test_lib.:3
+- test_deprecated.cpython-38.pyc.1405224:2
+- test_deprecated.cpython-38.pyc:4
+- test_deprecated.:6
+- test_deprecated:9
+- test_drop_duplicates.py :3
+- test_drop_duplicates.:9
+- function.cpython-38.pyc:2
+- function.:3
+- test_counting.cpython-38.pyc:2
+- test_counting.:3
+- test_interpolate.py :2
+- conftest.cpython-38.pyc.14052242651:2
+- conftest.cpython-38.pyc.1405224265:4
+- conftest.cpython-38.pyc.140522426:5
+- test_boxplot_method.cpython-38.pyc:2
+- test_boxplot_method.:3
+- test_bo:9
+- test_ndarray_backed.:3
+- integer.cpython-38.pyc:2
+- integer.:3
+- test_array_to_datetime.:3
+- test_take.py :5
+- test_repr.cpython-38.pyc 1:3
+- test_case_justify.cpython-38.pyc:2
+- test_case_justify.:3
+- test_odswriter.:3
+- test_od:6
+- test_federal.cpython-38.pyc:2
+- test_federal.:3
+- test_fe:6
+- feather_format.cpython-38.pyc:2
+- feather_format.:3
+- test_indexing.py 28:2
+- test_rank.py 170:2
+- test_rank.py :3
+- test_subclass.cpython-38.pyc 2:2
+- test_subclass.cpython-38.pyc :4
+- test_subclass.cpython-38.pyc:8
+- test_subclass.:12
+- c_parser_wrapper.cpython-38.pyc:2
+- c_parser_wrapper.:3
+- test_constructors.cpython-38.pyc.14052242670:2
+- test_constructors.cpython-38.pyc.140522426:3
+- test_frame_apply.cpython-38.pyc:2
+- test_frame_apply.:3
+- test_frame_apply:6
+- datetimelike.cpython-38.pyc.14052243:2
+- datetimelike.cpython-38.pyc.1405224:3
+- test_pipe.cpython-38.pyc.14052243:2
+- nanops.cpython-38.pyc:2
+- nanops.:3
+- test_c_parser_only.cpython-38.pyc:2
+- test_c_parser_only.:3
+- test_get.cpython-38.pyc.14052243:2
+- test_get.cpython-38.pyc:4
+- period.py:4
+- period.p:5
+- test_lookup.:3
+- _core.cpython-38.pyc:2
+- _core.:3
+- test_function.cpython-38.pyc.140522436086:2
+- test_function.cpython-38.pyc.14052243608:3
+- test_function.cpython-38.pyc.1405224360:4
+- test_function.cpython-38.pyc.1405224:5
+- test_frame_apply_relabeling.:3
+- ccalendar.p:3
+- ccalendar.:4
+- conftest.py 2:2
+- test_is_monotonic.cpython-38.pyc 1:2
+- test_is_monotonic.cpython-38.pyc:4
+- test_is_monotonic.:6
+- test_rename.py :2
+- test_rename.:6
+- html.py :2
+- __init__.cpython-38.pyc 29:2
+- test_numpy.py :2
+- test_numpy.:6
+- conftest.py 5:3
+- test_factorize.cpython-38.pyc 15:2
+- test_factorize.cpython-38.pyc :3
+- join.:3
+- test_iat.cpython-38.pyc:2
+- test_iat.:3
+- stata.:3
+- test_na_values.:3
+- test_min_max.cpython-38.pyc:2
+- test_to_excel.cpython-38.pyc:2
+- test_to_excel.:3
+- test_assert_series_equal.cpython-38.pyc:2
+- test_assert_series_equal.:3
+- test_put.:3
+- test_strings.py 2:2
+- test_strings.:6
+- pytables.py 1:2
+- pytables.:6
+- test_comparison.cpython-38.pyc.1405224:3
+- test_delete.py :2
+- test_unique.cpython-38.pyc.140522435:2
+- test_dict_compat.cpython-38.pyc:2
+- test_dict_compat.:3
+- test_searchsorted.py 2:2
+- test_searchsorted.py :3
+- test_searchsorted.:9
+- _ranges.cpython-38.pyc:2
+- _ranges.:3
+- _ran:6
+- test_frame.cpython-38.pyc.14052243:2
+- test_frame.cpython-38.pyc:4
+- test_frame.:6
+- test_arithmetic.cpython-38.pyc 1:2
+- test_get_level_values.cpython-38.pyc:2
+- test_get_level_values.:3
+- test_get_:21
+- algos.p:3
+- algos.:4
+- algos:6
+- algo:9
+- test_floating.cpython-38.pyc:2
+- test_floating.:3
+- test_map.py :2
+- generic.py 4:2
+- np_datetime.py:2
+- np_datetime.p:3
+- test_freq_attr.py 1:2
+- test_freq_attr.py :3
+- test_parse_dates.py :2
+- test_parse_dates.:6
+- test_parse_:9
+- test_series_info.cpython-38.pyc:2
+- test_series_info.:3
+- test_infer_objects.cpython-38.pyc :2
+- test_infer_objects.cpython-38.pyc:4
+- khash_:2
+- khash:4
+- api.py 1:3
+- api.py :9
+- test_flags.cpython-38.pyc:2
+- test_flags.:3
+- test_assert_extension_array_equal.cpython-38.pyc:2
+- test_assert_extension_array_equal.:3
+- test_to_frame.cpython-38.pyc.1405224:2
+- test_to_frame.cpython-38.pyc:4
+- test_to_frame.:6
+- test_mangle_dupes.:3
+- test_man:6
+- test_groupby_subclass.cpython-38.pyc:2
+- test_groupby_subclass.:3
+- test_groupby_s:6
+- test_groupby_:9
+- blocks.cpython-38.pyc:2
+- blocks.:3
+- test_where.cpython-38.pyc.1405224363:2
+- test_where.cpython-38.pyc.14052243:3
+- test_where.cpython-38.pyc:6
+- test_convert.py :2
+- test_datetimes.cpython-38.pyc.1405224:2
+- test_index_col.cpython-38.pyc:2
+- test_index_col.:3
+- test_html.py :2
+- test_html.:6
+- tzconversion.p:3
+- tzconversion.:4
+- test_period.cpython-38.pyc.140522436:2
+- test_period.cpython-38.pyc.14052243:4
+- test_period.cpython-38.pyc.1405224:5
+- test_skiprows.cpython-38.pyc:2
+- test_get.cpython-38.pyc :2
+- indexers.py:2
+- test_deprecated.cpython-38.pyc :2
+- test_between.:3
+- test_between:6
+- test_cython_aggregations.cpython-38.pyc:2
+- flags.cpython-38.pyc:2
+- test_rank.cpython-38.pyc.140522436:2
+- test_append.cpython-38.pyc :5
+- test_append.cpython-38.pyc:10
+- test_round.py :2
+- test_round.:6
+- test_round:9
+- test_interval_new.cpython-38.pyc:2
+- test_interval_new.:3
+- test_interval_:9
+- test_spss.cpython-38.pyc:2
+- test_spss.:3
+- test_nunique.cpython-38.pyc.140522436:2
+- common.py 3:4
+- test_highlight.cpython-38.pyc:2
+- test_highlight.:3
+- test_timezones.cpython-38.pyc.14052243:3
+- test_deprecate_kwarg.:3
+- test_cat.:3
+- pyarrow.:3
+- test_sas.:3
+- test_sas:6
+- concat.cpython-38.pyc.14052243569:2
+- concat.cpython-38.pyc.14052243:3
+- test_libfrequencies.:3
+- __init__.py 19:2
+- test_converters.:3
+- string_.cpython-38.pyc:2
+- string_.:3
+- test_drop.py :3
+- test_replace.cpython-38.pyc.1405224:3
+- test_replace.cpython-38.pyc:6
+- test_any_index.:3
+- test_any_:6
+- test_pipe.py :2
+- test_subclass.cpython-38.pyc.1405224359:2
+- test_subclass.cpython-38.pyc.14052243:3
+- test_subclass.cpython-38.pyc.1405224:4
+- test_qcut.cpython-38.pyc:2
+- test_qcut.:3
+- test_assert_numpy_array_equal.:3
+- expressions.:3
+- test_numpy_compat.cpython-38.pyc:2
+- test_fillna.py 2:2
+- test_fillna.py :7
+- test_loc.py :2
+- test_frame_transform.cpython-38.pyc:2
+- test_frame_transform.:3
+- _pyxlsb.cpython-38.pyc:2
+- _pyxlsb.:3
+- test_invalid.cpython-38.pyc:2
+- test_invalid.:3
+- test_assert_categorical_equal.cpython-38.pyc:2
+- test_assert_categorical_equal.:3
+- common.cpython-38.pyc.1405224358:2
+- construction.cpython-38.pyc 2:2
+- test_ewm.cpython-38.pyc:2
+- test_ewm.:3
+- style.cpython-38.pyc.1405224:2
+- conftest.py 4:5
+- test_cat.cpython-38.pyc:2
+- test_logical_ops.cpython-38.pyc :2
+- test_logical_ops.cpython-38.pyc:4
+- test_subclass.cpython-38.pyc 1:2
+- test_construct_from_scalar.cpython-38.pyc:2
+- test_construct_from_scalar.:3
+- check.cpython-38.pyc:2
+- check.:3
+- test_converters.cpython-38.pyc:2
+- conftest.cpython-38.pyc.1405224358:3
+- conftest.cpython-38.pyc.140522435:7
+- test_series_apply.cpython-38.pyc:2
+- test_series_apply.:3
+- test_series_apply:6
+- test_dst.cpython-38.pyc:2
+- test_dst.:3
+- test_constructors.cpython-38.pyc 3:2
+- test_reset_index.py :2
+- test_sample.py :2
+- test_view.cpython-38.pyc:2
+- test_view.:3
+- test_get_numeric_data.cpython-38.pyc :2
+- test_get_numeric_data.cpython-38.pyc:4
+- test_get_numeric_data.:6
+- test_timestamp.cpython-38.pyc :2
+- test_timestamp.cpython-38.pyc:4
+- test_timestamp.:6
+- test_times:9
+- masked_reductions.cpython-38.pyc:2
+- masked_reductions.:3
+- masked_:6
+- conftest.cpython-38.pyc.1405224360:2
+- test_constructors.cpython-38.pyc.1405224356:2
+- test_constructors.cpython-38.pyc.140522435:7
+- test_get_dummies.cpython-38.pyc 1:2
+- test_get_dummies.cpython-38.pyc:4
+- test_get_dummies.:6
+- test_parse_iso8601.:3
+- test_logical_ops.cpython-38.pyc.14052243:2
+- test_mask.py :2
+- test_mask.:6
+- test_resampler_grouper.cpython-38.pyc:2
+- test_resampler_grouper.:3
+- test_resample:6
+- test_array_to_datetime.cpython-38.pyc:2
+- test_other.cpython-38.pyc:2
+- test_timedelta64.:3
+- test_values.cpython-38.pyc :2
+- dtype.cpython-38.pyc.14052243:2
+- base.py 5:3
+- pickle.:3
+- base.cpython-38.pyc.1405224366:2
+- sparse.:3
+- cast.cpython-38.pyc:2
+- cast.:3
+- test_year.:3
+- test_matplotlib.cpython-38.pyc:2
+- describe.cpython-38.pyc:2
+- describe.:3
+- test_pop.cpython-38.pyc.14052243:2
+- test_pop.cpython-38.pyc:4
+- test_pop.:6
+- test_readlines.:3
+- test_expanding.cpython-38.pyc:2
+- test_expanding.:3
+- test_grouping.cpython-38.pyc:2
+- test_grouping.:3
+- test_to_series.cpython-38.pyc:2
+- test_to_series.:3
+- test_constructors.cpython-38.pyc.1405224358:2
+- test_integer.cpython-38.pyc:2
+- test_integer.:3
+- test_astype.py 3:3
+- test_astype.cpython-38.pyc.14052243589:2
+- test_astype.cpython-38.pyc.1405224358:4
+- test_astype.cpython-38.pyc.140522435:7
+- test_astype.cpython-38.pyc.14052243:14
+- test_astype.cpython-38.pyc.1405224:15
+- dtype.py :2
+- test_monotonic.cpython-38.pyc.14052243:2
+- test_monotonic.cpython-38.pyc:4
+- test_monotonic.:6
+- pyarrow.cpython-38.pyc:2
+- test_to_xml.:3
+- test_logical.cpython-38.pyc:2
+- test_logical.:3
+- test_chaining_and_caching.py :2
+- test_searchsorted.cpython-38.pyc.140522436:2
+- test_searchsorted.cpython-38.pyc.14052243:3
+- test_searchsorted.cpython-38.pyc:6
+- test_rename_axis.py :2
+- style.py :2
+- test_compat.cpython-38.pyc 2:2
+- test_format.cpython-38.pyc.1405224:2
+- test_format.cpython-38.pyc:4
+- test_diff.cpython-38.pyc.14052243:2
+- test_diff.cpython-38.pyc:4
+- test_sorted.cpython-38.pyc:2
+- test_sorted.:3
+- test_constructors.cpython-38.pyc 8:2
+- test_deprecate.cpython-38.pyc:2
+- test_deprecate.:3
+- indexing.cpython-38.pyc :2
+- test_set_value.py :2
+- test_set_value.:6
+- common.py 65:2
+- common.py 6:3
+- hist.cpython-38.pyc:2
+- hist.:3
+- test_astype.cpython-38.pyc.1405224363:2
+- test_astype.cpython-38.pyc.140522436:7
+- test_validate_args_and_kwargs.cpython-38.pyc:2
+- test_validate_args_and_kwargs.:3
+- test_localization.cpython-38.pyc:2
+- test_localization.:3
+- __init__.cpython-38.pyc 8:4
+- test_construct_ndarray.cpython-38.pyc:2
+- methods.cpython-38.pyc :2
+- test_string.py :3
+- test_string.:9
+- sample.cpython-38.pyc:2
+- test_stat_reductions.cpython-38.pyc:2
+- test_stat_reductions.:3
+- test_stat:6
+- test_timestamp.cpython-38.pyc.1405224:2
+- test_setitem.cpython-38.pyc :3
+- test_setitem.cpython-38.pyc:6
+- test_setitem.:9
+- test_is_monotonic.py :2
+- test_compare.cpython-38.pyc.14052243:2
+- test_compare.cpython-38.pyc:4
+- test_partial_slicing.cpython-38.pyc.14052243:2
+- test_partial_slicing.cpython-38.pyc:4
+- test_partial_slicing.:6
+- test_parse_iso8601.cpython-38.pyc:2
+- test_parse_dates.cpython-38.pyc.1405224:2
+- test_parse_dates.cpython-38.pyc:4
+- test_deprecate_kwarg.cpython-38.pyc:2
+- test_analytics.py :2
+- test_ccalendar.:3
+- test_construction.py :3
+- reshape.py:3
+- reshape.:6
+- sas7bdat.:3
+- test_odswriter.cpython-38.pyc:2
+- numba_.py :3
+- numba_.:9
+- _hypothesis.cpython-38.pyc:2
+- _hypothesis.:3
+- css.:3
+- conftest.cpython-38.pyc.1405224362:2
+- test_online.cpython-38.pyc:2
+- test_online.:3
+- reduction.:2
+- test_promote.cpython-38.pyc:2
+- test_promote.:3
+- test_pr:6
+- test_cov_corr.py :2
+- test_cov_corr.:6
+- conftest.py 1:5
+- apply.:3
+- test_to_offset.cpython-38.pyc:2
+- test_to_offset.:3
+- test_array.cpython-38.pyc :2
+- test_array.cpython-38.pyc:4
+- test_array.:6
+- conftest.cpython-38.pyc 40:3
+- test_truncate.cpython-38.pyc :2
+- test_indexing.cpython-38.pyc.14052243623:2
+- test_to_latex.cpython-38.pyc.14052243:2
+- test_to_latex.cpython-38.pyc:4
+- test_to_latex.:6
+- test_dropna.cpython-38.pyc.14052243:2
+- test_dropna.cpython-38.pyc:4
+- test_dropna.:6
+- test_comparison.cpython-38.pyc.14052243608:2
+- test_block_internals.:3
+- test_api.py 123:3
+- test_api.py 1:4
+- test_api.py :8
+- test_reshape.cpython-38.pyc.140522436:2
+- test_reshape.cpython-38.pyc:4
+- test_reshape.:6
+- test_set_axis.cpython-38.pyc:2
+- test_set_axis.:3
+- test_astype.cpython-38.pyc.14052243608:2
+- test_astype.cpython-38.pyc.1405224360:3
+- test_feather.cpython-38.pyc:2
+- test_feather.:3
+- test_boolean.:3
+- test_bool:6
+- _exceptions.cpython-38.pyc:2
+- api.cpython-38.pyc.1405224:6
+- misc.cpython-38.pyc:2
+- misc.:3
+- test_reductions.cpython-38.pyc.140522435:2
+- test_asfreq.py :3
+- test_timedelta.cpython-38.pyc.140522436:2
+- vectorized.:3
+- sas_xport.cpython-38.pyc:2
+- sas_xport.:3
+- sas_:6
+- test_reductions.cpython-38.pyc 47:2
+- test_reductions.cpython-38.pyc 4:3
+- test_reductions.cpython-38.pyc :6
+- test_describe.cpython-38.pyc.140522436:2
+- test_describe.cpython-38.pyc:4
+- test_merge.cpython-38.pyc:2
+- test_merge.:3
+- test_merge:15
+- test_to_dict_of_blocks.:3
+- _tester.cpython-38.pyc:2
+- _tester.:3
+- test_frame_apply_relabeling.cpython-38.pyc:2
+- test_shift.py 2:2
+- test_shift.py :4
+- test_to_frame.cpython-38.pyc :2
+- test_explode.cpython-38.pyc :2
+- csvs.:3
+- test_drop_duplicates.cpython-38.pyc :3
+- test_drop_duplicates.cpython-38.pyc:6
+- __init__.cpython-38.pyc 30:3
+- test_finalize.cpython-38.pyc:2
+- test_finalize.:3
+- date_converters.cpython-38.pyc:2
+- test_period_range.cpython-38.pyc:2
+- test_string.cpython-38.pyc.140522435:2
+- test_string.cpython-38.pyc.1405224:3
+- test_string.cpython-38.pyc:6
+- grouper.cpython-38.pyc:2
+- grouper.:3
+- test_offsets.:3
+- test_parquet.cpython-38.pyc:2
+- test_parquet.:3
+- test_nlargest.cpython-38.pyc :2
+- test_nlargest.cpython-38.pyc:4
+- test_swaplevel.cpython-38.pyc:2
+- common.cpython-38.pyc 4:3
+- transforms.:3
+- test_repeat.cpython-38.pyc.140522435:2
+- test_repeat.cpython-38.pyc.14052243:4
+- clipboards.:3
+- test_string.cpython-38.pyc :3
+- methods.py :2
+- test_common.cpython-38.pyc.1405224358:2
+- test_setops.cpython-38.pyc 5:2
+- test_sample.cpython-38.pyc :2
+- test_bar.cpython-38.pyc:2
+- test_bar.:3
+- test_compare.cpython-38.pyc :2
+- test_round_trip.cpython-38.pyc:2
+- test_round_trip.:3
+- test_item.cpython-38.pyc:2
+- test_item.:3
+- test_printing.cpython-38.pyc:2
+- test_printing.:3
+- timestamps.:4
+- test_missing.cpython-38.pyc :5
+- test_index.cpython-38.pyc.1405224362:3
+- algorithms.:3
+- test_iteration.cpython-38.pyc.14052243:2
+- test_interval.cpython-38.pyc.1405224360:2
+- test_setitem.cpython-38.pyc.140522436:3
+- test_formats.py 32:2
+- test_na_values.cpython-38.pyc:2
+- test_frame.py :2
+- test_droplevel.cpython-38.pyc:2
+- test_droplevel.:3
+- _io.cpython-38.pyc:2
+- test_join.cpython-38.pyc.140522435:2
+- index.py:4
+- test_cut.cpython-38.pyc:2
+- test_isocalendar.cpython-38.pyc:2
+- test_isocalendar.:3
+- range.:3
+- test_datetime.cpython-38.pyc.1405224356:2
+- test_datetime.cpython-38.pyc.140522435:3
+- putmask.cpython-38.pyc:2
+- putmask.:3
+- test_list.:3
+- test_apply.py :2
+- _normalize.cpython-38.pyc:2
+- _normalize.:3
+- test_assert_almost_equal.cpython-38.pyc:2
+- test_set_value.cpython-38.pyc.140522436:2
+- test_set_value.cpython-38.pyc:4
+- test_boolean.cpython-38.pyc:2
+- resample.cpython-38.pyc:2
+- test_convert_dtypes.py :2
+- test_convert_dtypes.:6
+- excel.cpython-38.pyc:2
+- conftest.cpython-38.pyc 5:2
+- test_where.cpython-38.pyc :3
+- test_constructors.cpython-38.pyc 18:2
+- test_constructors.cpython-38.pyc 1:5
+- test_coercion.cpython-38.pyc:2
+- test_coercion.:3
+- test_dialect.cpython-38.pyc:2
+- test_dialect.:3
+- test_downcast.cpython-38.pyc:2
+- test_downcast.:3
+- test_down:6
+- test_do:12
+- tslib.py:2
+- tslib.:3
+- test_pickle.cpython-38.pyc 1:3
+- test_pickle.cpython-38.pyc :7
+- test_eng_formatting.cpython-38.pyc:2
+- test_eng_formatting.:3
+- test_to_timedelta.cpython-38.pyc:2
+- test_to_timedelta.:3
+- hashing.cpython-38.pyc:2
+- hashing.cpython-38:3
+- hashing.:6
+- test_moments_consistency_ewm.cpython-38.pyc:2
+- test_moments_consistency_ewm.:3
+- test_moments_consistency_e:6
+- test_moments_consistency_:9
+- test_eval.cpython-38.pyc:2
+- test_groupby_dropna.cpython-38.pyc:2
+- test_groupby_dropna.:3
+- test_update.py :2
+- test_update.:6
+- test_dtypes.cpython-38.pyc 4:2
+- test_merge_ordered.cpython-38.pyc:2
+- test_merge_ordered.:3
+- test_merge_:12
+- test_validate.cpython-38.pyc :2
+- _random.:3
+- csvs.cpython-38.pyc:2
+- test_timeseries_window.cpython-38.pyc:2
+- test_timeseries_window.:3
+- compat.py :2
+- test_indexing.cpython-38.pyc 3:2
+- test_nat.cpython-38.pyc :2
+- test_nat.cpython-38.pyc:4
+- test_nat.:6
+- test_sort_values.cpython-38.pyc.14052243:2
+- asserters.cpython-38.pyc:2
+- asserters.:3
+- test_datetimelike.cpython-38.pyc.140522435:2
+- test_datetimelike.cpython-38.pyc.14052243:3
+- mean_.cpython-38.pyc:2
+- mean_.:3
+- test_check_indexer.:3
+- pickle.cpython-38.pyc:2
+- test_numpy.cpython-38.pyc :2
+- test_numpy.cpython-38.pyc:4
+- test_year.cpython-38.pyc:2
+- test_numeric.py :2
+- test_api.cpython-38.pyc 1:5
+- merge.cpython-38.pyc:2
+- test_join.cpython-38.pyc 9:2
+- test_join.cpython-38.pyc :10
+- test_strings.cpython-38.pyc.1405224:2
+- test_strings.cpython-38.pyc:4
+- test_libfrequencies.cpython-38.pyc:2
+- test_concat.cpython-38.pyc :4
+- test_dropna.cpython-38.pyc :2
+- test_stata.cpython-38.pyc:2
+- test_stata.:3
+- test_insert.cpython-38.pyc.140522435:3
+- test_insert.cpython-38.pyc.14052243:4
+- test_insert.cpython-38.pyc:8
+- test_repr.cpython-38.pyc.1405224:5
+- test_ufunc.py 1:2
+- test_types.cpython-38.pyc:2
+- test_types.:3
+- test_frame_value_counts.cpython-38.pyc:2
+- test_frame_value_counts.:3
+- test_repeat.cpython-38.pyc.140522436:2
+- test_to_csv.cpython-38.pyc :3
+- test_to_csv.cpython-38.pyc:6
+- test_to_csv.:9
+- _test_decorators.cpython-38.pyc:2
+- _test_decorators.:3
+- test_ops.cpython-38.pyc.140522436:3
+- _typing.:3
+- test_indexing.cpython-38.pyc.14052243594:3
+- test_iterator.cpython-38.pyc:2
+- test_iterator.:3
+- test_algos.cpython-38.pyc.1405224:2
+- test_readlines.cpython-38.pyc:2
+- api.cpython-38.pyc 1:2
+- test_period_asfreq.cpython-38.pyc:2
+- test_period_asfreq.:3
+- dtypes.py:3
+- dtypes.p:5
+- dtypes.:8
+- test_astype.py 27:2
+- object_array.cpython-38.pyc:2
+- test_rolling.cpython-38.pyc:2
+- test_rolling.:3
+- array.cpython-38.pyc 4:2
+- test_readers.cpython-38.pyc:2
+- test_readers.:3
+- test_cov_corr.cpython-38.pyc.140522436:2
+- test_cov_corr.cpython-38.pyc:4
+- utils.cpython-38.pyc:2
+- utils.:3
+- test_inf.cpython-38.pyc:2
+- test_downstream.cpython-38.pyc:2
+- test_downstream.:3
+- test_clip.py :2
+- apply.cpython-38.pyc:2
+- test_get_numeric_data.py :2
+- console.cpython-38.pyc:2
+- console.:3
+- test_sas7bdat.:3
+- test_frozen.:3
+- test_fro:9
+- test_set_index.cpython-38.pyc:2
+- test_set_index.:3
+- test_pandas.cpython-38.pyc:2
+- test_pandas.:3
+- test_business_quarter.cpython-38.pyc:2
+- test_business_quarter.:3
+- test_nonunique_indexes.:3
+- test_append.cpython-38.pyc.140522435:2
+- test_append.cpython-38.pyc.14052243:5
+- test_to_string.cpython-38.pyc:2
+- test_any_all.cpython-38.pyc:2
+- test_any_all.:3
+- test_align.cpython-38.pyc :2
+- test_asfreq.cpython-38.pyc :3
+- conftest.py 16:2
+- period.cpython-38.pyc.14052243:2
+- test_to_numeric.:3
+- test_moments_consistency_expanding.cpython-38.pyc:2
+- test_moments_consistency_expanding.:3
+- test_construct_object_arr.cpython-38.pyc:2
+- test_construct_object_arr.:3
+- test_to_period.py :2
+- setitem.cpython-38.pyc:2
+- setitem.:3
+- html_:2
+- test_drop.cpython-38.pyc.14052243:3
+- test_engines.cpython-38.pyc:2
+- test_merge_cross.cpython-38.pyc:2
+- test_merge_cross.:3
+- test_to_dict.py 11:2
+- ops_dispatch.:3
+- test_sorting.py :3
+- test_sorting.:9
+- accessor.py 1:2
+- test_common.cpython-38.pyc 2:2
+- test_ints.cpython-38.pyc:2
+- test_ints.:3
+- test_s3.cpython-38.pyc:2
+- test_s3.:3
+- dtypes.pxd :2
+- test_select.cpython-38.pyc:2
+- test_select.:3
+- _xlsxwriter.cpython-38.pyc:2
+- _xlsxwriter.:3
+- sql.cpython-38.pyc:2
+- sql.:3
+- test_orc.cpython-38.pyc:2
+- test_orc.:3
+- testing.py 3:2
+- test_isin.py :3
+- test_deprecated_kwargs.:3
+- test_to_numeric.cpython-38.pyc:2
+- test_scalar_compat.cpython-38.pyc.140522436:2
+- test_scalar_compat.cpython-38.pyc.14052243:3
+- test_scalar_compat.cpython-38.pyc:6
+- test_scalar_compat.:9
+- shared.:3
+- test_html.cpython-38.pyc :2
+- test_html.cpython-38.pyc:4
+- test_multi_thread.:3
+- test_scalar_compat.py :3
+- sas_constants.cpython-38.pyc:2
+- sas_constants.:3
+- test_generic.cpython-38.pyc.140522435:2
+- test_generic.cpython-38.pyc:4
+- test_series_apply_relabeling.cpython-38.pyc:2
+- test_series_apply_relabeling.:3
+- test_interval.cpython-38.pyc 78:2
+- printing.py 1:2
+- printing.:6
+- test_clipboard.cpython-38.pyc:2
+- test_clipboard.:3
+- test_to_xml.cpython-38.pyc:2
+- test_tz_convert.cpython-38.pyc:2
+- test_is_monotonic.cpython-38.pyc.140522435:2
+- test_to_markdown.:3
+- test_duplicates.cpython-38.pyc:2
+- test_duplicates.:3
+- io.:5
+- test_operators.:3
+- test_ope:6
+- properties.:3
+- test_css.cpython-38.pyc:2
+- test_css.:3
+- masked_shared.cpython-38.pyc:2
+- masked_shared.:3
+- test_pop.py 2:2
+- test_read_fwf.:3
+- test_managers.cpython-38.pyc:2
+- test_managers.:3
+- test_snap.cpython-38.pyc:2
+- eval.cpython-38.pyc:2
+- eval.:3
+- test_nonunique_indexes.cpython-38.pyc:2
+- index.cpython-38.pyc :2
+- test_where.py 3:2
+- converter.cpython-38.pyc:2
+- converter.:3
+- conver:7
+- test_custom_business_day.cpython-38.pyc:2
+- scipy_sparse.cpython-38.pyc:2
+- scipy_sparse.:3
+- test_ticks.cpython-38.pyc:2
+- test_ticks.:3
+- interface.cpython-38.pyc:2
+- interface.:3
+- engines.cpython-38.pyc:2
+- engines.:3
+- test_unique.cpython-38.pyc :3
+- managers.cpython-38.pyc:2
+- managers.:3
+- test_network.cpython-38.pyc:2
+- test_network.:3
+- conversion.:4
+- test_comment.cpython-38.pyc:2
+- test_numba.cpython-38.pyc 7:2
+- test_nat.cpython-38.pyc.14052243:2
+- common.cpython-38.pyc 22:3
+- common.cpython-38.pyc 2:4
+- test_extract_array.cpython-38.pyc:2
+- test_extract_array.:3
+- test_extract:6
+- test_repr.cpython-38.pyc.14052243589:3
+- test_repr.cpython-38.pyc.14052243:4
+- test_util.py :2
+- datetimes.py :3
+- test_hashtable.cpython-38.pyc:2
+- test_hashtable.:3
+- test_setops.cpython-38.pyc.1405224359:2
+- test_setops.cpython-38.pyc.140522435:3
+- khash.:2
+- test_na_indexing.cpython-38.pyc:2
+- test_na_indexing.:3
+- base_parser.cpython-38.pyc:2
+- base_parser.:3
+- test_setops.cpython-38.pyc.14052243606:3
+- test_setops.cpython-38.pyc.1405224360:4
+- pytables.cpython-38.pyc 1:2
+- pytables.cpython-38.pyc:4
+- test_indexing.cpython-38.pyc.140522435946:2
+- test_scalar_compat.py 1:2
+- test_console.cpython-38.pyc:2
+- test_console.:3
+- test_inference.cpython-38.pyc :2
+- test_setitem.py 4:2
+- test_setitem.py :3
+- test_from_records.cpython-38.pyc:2
+- test_from_records.:3
+- test_from_:6
+- test_bin_groupby.cpython-38.pyc:2
+- test_bin_groupby.:3
+- test_to_latex.cpython-38.pyc :2
+- test_validate_kwargs.cpython-38.pyc:2
+- test_validate_kwargs.:3
+- _color_data.:3
+- test_put.cpython-38.pyc:2
+- test_period.cpython-38.pyc.1405224358:2
+- test_conversion.cpython-38.pyc :3
+- interval.cpython-38.pyc :2
+- _json.cpython-38.pyc:2
+- _json.:3
+- test_first_valid_index.cpython-38.pyc:2
+- test_first_valid_index.:3
+- test_frequencies.cpython-38.pyc:2
+- range.cpython-38.pyc:2
+- test_loc.cpython-38.pyc.140522436:2
+- util.cpython-38.pyc:2
+- util.:5
+- test_time_grouper.cpython-38.pyc:2
+- test_time_grouper.:3
+- util.pxd :2
+- util.p:3
+- test_strings.cpython-38.pyc 2:2
+- test_take.py 2:2
+- test_comparisons.:3
+- api.cpython-38.pyc.14052243634:2
+- api.cpython-38.pyc.140522436:3
+- api.cpython-38.pyc.14052243:5
+- test_inference.py :2
+- _arrow_utils.cpython-38.pyc:2
+- _arrow_utils.:3
+- test_tz_localize.cpython-38.pyc.1405224:2
+- test_nanops.cpython-38.pyc:2
+- test_nanops.:3
+- test_assert_index_equal.cpython-38.pyc:2
+- test_assert_index_equal.:3
+- test_assert_in:6
+- test_melt.cpython-38.pyc:2
+- test_aggregation.cpython-38.pyc:2
+- test_aggregation.:3
+- test_aggregat:6
+- test_business_hour.cpython-38.pyc:2
+- test_business_hour.:3
+- test_retain_attributes.cpython-38.pyc:2
+- test_retain_attributes.:3
+- test_comparisons.cpython-38.pyc:2
+- test_clip.cpython-38.pyc.14052243:2
+- test_indexing.cpython-38.pyc.1405224361:3
+- test_sas.cpython-38.pyc:2
+- test_xlwt.:3
+- test_equals.cpython-38.pyc.140522435:4
+- test_equals.cpython-38.pyc.14052243:5
+- test_constructors.py 5:3
+- test_head_tail.cpython-38.pyc.1405224:2
+- test_head_tail.cpython-38.pyc:4
+- test_head_tail.:6
+- test_insert.cpython-38.pyc :4
+- test_ops.cpython-38.pyc 2:2
+- datetimelike.py :3
+- test_join.cpython-38.pyc 4:2
+- test_freq_attr.cpython-38.pyc 17:2
+- test_freq_attr.cpython-38.pyc :3
+- test_sorting.cpython-38.pyc :3
+- test_sorting.cpython-38.pyc:6
+- test_merge_index_as_string.:3
+- conversion.p:3
+- test_combine_first.cpython-38.pyc :2
+- test_combine_first.cpython-38.pyc:4
+- test_aggregate.:3
+- test_string_array.cpython-38.pyc:2
+- test_string_array.:3
+- test_between.cpython-38.pyc:2
+- test_find_common_type.cpython-38.pyc:2
+- _base.cpython-38.pyc:2
+- test_numpy.cpython-38.pyc.1405224358:2
+- test_quantile.cpython-38.pyc.140522436:3
+- test_quantile.cpython-38.pyc:6
+- __init__.cpython-38.pyc 46:2
+- test_formats.py 1:2
+- test_delitem.py 1:2
+- test_constructors.cpython-38.pyc.1405224359:3
+- missing.cpython-38.pyc.14052243:4
+- test_pickle.py 30:2
+- test_pickle.py :7
+- test_empty.py :2
+- __init__.py 12:3
+- test_assign.:3
+- conftest.cpython-38.pyc.1405224359:3
+- test_ops.py 3:2
+- test_ops.py :5
+- test_timedelta.cpython-38.pyc :3
+- test_ccalendar.cpython-38.pyc:2
+- test_arithmetic.py 1:2
+- test_equals.cpython-38.pyc.14052243570:2
+- test_append.cpython-38.pyc.1405224363:2
+- test_append.cpython-38.pyc.140522436:3
+- test_astype.cpython-38.pyc 5:2
+- test_sas7bdat.cpython-38.pyc:2
+- test_searchsorted.cpython-38.pyc :3
+- api.py 9:2
+- test_between_time.cpython-38.pyc:2
+- test_between_time.:3
+- test_indexing.cpython-38.pyc.14052243612:2
+- test_matmul.cpython-38.pyc :2
+- test_copy.cpython-38.pyc.140522436:2
+- test_extract.cpython-38.pyc:2
+- test_extract.:3
+- test_join.cpython-38.pyc 25:2
+- test_join.cpython-38.pyc 2:3
+- test_xlwt.cpython-38.pyc:2
+- gbq.cpython-38.pyc:2
+- gbq.:3
+- gbq:4
+- test_frame.cpython-38.pyc 6:2
+- test_timezones.cpython-38.pyc.1405224359:2
+- test_misc.cpython-38.pyc.140522435:2
+- test_repr_info.cpython-38.pyc:2
+- test_repr_info.:3
+- test_decimal.cpython-38.pyc.1405224362:2
+- test_assert_interval_array_equal.cpython-38.pyc:2
+- test_assert_interval_array_equal.:3
+- test_optional_dependency.cpython-38.pyc:2
+- test_optional_dependency.:3
+- test_merge_asof.:3
+- test_at.cpython-38.pyc:2
+- test_at.:3
+- test_at:6
+- accessor.cpython-38.pyc 9:2
+- accessor.cpython-38.pyc :3
+- test_extension.cpython-38.pyc:2
+- test_extension.:3
+- test_chunksize.cpython-38.pyc:2
+- test_chunksize.:3
+- test_parse_dates.cpython-38.pyc 3:2
+- test_maybe_box_native.cpython-38.pyc:2
+- test_maybe_box_native.:3
+- missing.py 2:2
+- hashtable.py:2
+- test_value_counts.py 3:2
+- test_value_counts.py :5
+- sum_.:3
+- test_pop.cpython-38.pyc :2
+- properties.py:2
+- test_transform.cpython-38.pyc:2
+- test_transform.:3
+- RECORD:2
+- test_map.cpython-38.pyc :2
+- _typing.cpython-38.pyc:2
+- test_rolling_quantile.cpython-38.pyc:2
+- test_rolling_quantile.:3
+- test_openpyxl.cpython-38.pyc:2
+- test_openpyxl.:3
+- test_groupby_shift_diff.:3
+- test_ndarray_backed.cpython-38.pyc:2
+- test_reindex_like.cpython-38.pyc.14052243:2
+- test_constructors.cpython-38.pyc 5:2
+- test_concat.py 2:2
+- test_concat.py :4
+- test_isna.cpython-38.pyc:2
+- _warnings.cpython-38.pyc:2
+- _warnings.:3
+- test_offsets.cpython-38.pyc:2
+- missing.cpython-38.pyc.140522435:2
+- test_mask.cpython-38.pyc.14052243:2
+- test_mask.cpython-38.pyc:4
+- boolean.:3
+- test_timedeltas.cpython-38.pyc :2
+- test_timedeltas.cpython-38.pyc:4
+- test_timedeltas.:6
+- test_timedeltas.py :2
+- __init__.py 10:2
+- ewm.cpython-38.pyc:2
+- ewm.:3
+- test_take.cpython-38.pyc.140522435:2
+- test_timedelta.py :3
+- test_rendering.cpython-38.pyc:2
+- replace.cpython-38.pyc:2
+- replace.:3
+- test_pytables_missing.cpython-38.pyc:2
+- test_pytables_missing.:3
+- test_rolling_skew_kurt.cpython-38.pyc:2
+- test_rolling_skew_kurt.:3
+- test_drop.cpython-38.pyc.140522436:2
+- align.cpython-38.pyc:2
+- align.:3
+- test_constructors.py 6:2
+- datetimes.py 4:2
+- test_replace.cpython-38.pyc :3
+- test_astype.cpython-38.pyc 22:2
+- test_ujson.cpython-38.pyc:2
+- test_ujson.:3
+- test_dtypes_basic.cpython-38.pyc:2
+- test_dtypes_basic.:3
+- test_bool.:3
+- test_doc.cpython-38.pyc:2
+- test_doc.:3
+- test_iloc.cpython-38.pyc.140522436:2
+- test_timedelta_range.:3
+- test_duplicated.cpython-38.pyc :2
+- test_sparse_accessor.cpython-38.pyc:2
+- test_sparse_accessor.:3
+- _odfreader.cpython-38.pyc:2
+- _odfreader.:3
+- numba_.cpython-38.pyc.1405224:3
+- numba_.cpython-38.pyc:6
+- test_store.cpython-38.pyc:2
+- test_convert.cpython-38.pyc.14052243:2
+- test_partial_slicing.py :2
+- test_setops.cpython-38.pyc 1:3
+- test_append.cpython-38.pyc 2:2
+- test_timezones.cpython-38.pyc :4
+- multi.:3
+- test_head_tail.py :2
+- test_quantile.cpython-38.pyc 1:2
+- test_quantile.cpython-38.pyc :3
+- test_gcs.cpython-38.pyc:2
+- test_gcs.:3
+- rolling.:3
+- test_dot.cpython-38.pyc:2
+- test_dot.:3
+- test_take.cpython-38.pyc 22:2
+- test_reshape.cpython-38.pyc :2
+- groupby.cpython-38.pyc 4:2
+- groupby.cpython-38.pyc :3
+- test_categorical.cpython-38.pyc.140522436:2
+- test_categorical.cpython-38.pyc.14052243:3
+- test_floats.:3
+- min_max_.cpython-38.pyc:2
+- min_max_.:3
+- test_to_time.cpython-38.pyc:2
+- test_to_time.:3
+- test_categorical.cpython-38.pyc 1:3
+- pickle_compat.cpython-38.pyc:2
+- pickle_compat.:3
+- test_interval.py 5:2
+- ops_dispatch.py:2
+- test_odf.cpython-38.pyc:2
+- test_odf.:3
+- test_block_internals.cpython-38.pyc:2
+- test_iloc.py 48:2
+- test_to_csv.cpython-38.pyc.14052243:3
+- parsing.cpython-38.pyc:2
+- parsing.cpython-38:3
+- parsing.:7
+- test_combine_first.cpython-38.pyc.140522436:2
+- test_repeat.py :4
+- conftest.cpython-38.pyc.14052243615:2
+- dtypes.cpython-38:3
+- test_external_block.cpython-38.pyc:2
+- test_style.cpython-38.pyc :3
+- test_aggregate.cpython-38.pyc:2
+- arrays.py:3
+- test_fillna.py 1:3
+- test_timedelta64.cpython-38.pyc:2
+- test_numba.cpython-38.pyc.140522436:3
+- test_pickle.py 1:2
+- test_unary_ops.cpython-38.pyc:2
+- test_unary_ops.:3
+- test_datetimes.py 1:2
+- test_show_versions.cpython-38.pyc:2
+- test_constructors.cpython-38.pyc.1405224363:4
+- test_reductions.cpython-38.pyc.1405224363:2
+- conftest.cpython-38.pyc.14052243589:2
+- test_lookup.cpython-38.pyc:2
+- test_usecols_basic.cpython-38.pyc:2
+- test_range.cpython-38.pyc:2
+- test_range.:3
+- test_dataframe.cpython-38.pyc:2
+- test_dataframe.:3
+- test_delete.cpython-38.pyc 2:2
+- test_copy.py 2:2
+- test_copy.py :3
+- test_partial.cpython-38.pyc.140522436:2
+- test_partial.cpython-38.pyc:4
+- test_partial.:6
+- expr.cpython-38.pyc:2
+- __init__.py 5:3
+- test_period.cpython-38.pyc 4:3
+- test_check_indexer.cpython-38.pyc:2
+- mask_ops.cpython-38.pyc:2
+- mask_ops.:3
+- test_validate_args.cpython-38.pyc:2
+- __init__.py 27:3
+- writers.py:2
+- writers.:3
+- test_subclass.py :4
+- test_category.cpython-38.pyc:2
+- test_category.:3
+- test_timedelta_range.cpython-38.pyc:2
+- test_api.cpython-38.pyc.140522426:2
+- test_comparison.cpython-38.pyc 21:2
+- test_pivot.cpython-38.pyc:2
+- test_pivot.:3
+- css.cpython-38.pyc:2
+- test_deprecated_kwargs.cpython-38.pyc:2
+- test_rename.cpython-38.pyc.14052243:2
+- test_rename.cpython-38.pyc:4
+- test_round.cpython-38.pyc :2
+- test_round.cpython-38.pyc:4
+- sum_.cpython-38.pyc:2
+- vectorized.py:2
+- test_interval_tree.cpython-38.pyc:2
+- test_interval_tree.:3
+- _mixins.:3
+- timestamps.py:2
+- timestamps.p:3
+- tzconversion.py:2
+- test_union_categoricals.cpython-38.pyc:2
+- test_union_categoricals.:3
+- display.cpython-38.pyc:2
+- display.:3
+- array_ops.:3
+- hashing.py:3
+- test_empty.cpython-38.pyc.1405224:2
+- test_from_dict.cpython-38.pyc:2
+- test_from_dict.:3
+- test_get_dummies.py :2
+- chainmap.:2
+- python_parser.cpython-38.pyc:2
+- python_parser.:3
+- test_drop_duplicates.cpython-38.pyc.140522436:2
+- test_drop_duplicates.cpython-38.pyc.14052243:3
+- test_get_dummies.cpython-38.pyc.140522436:2
+- test_to_numpy.py :2
+- test_replace.py 2:2
+- boxplot.cpython-38.pyc:2
+- boxplot.:3
+- test_xs.cpython-38.pyc :2
+- test_xs.cpython-38.pyc:4
+- test_set_value.cpython-38.pyc :2
+- test_merge_index_as_string.cpython-38.pyc:2
+- test_asfreq.cpython-38.pyc.140522435:2
+- test_analytics.cpython-38.pyc.1405224:2
+- test_infer_objects.cpython-38.pyc.1405224:2
+- _random.cpython-38.pyc:2
+- test_sort_values.cpython-38.pyc 7:2
+- test_sort_values.cpython-38.pyc :3
+- algorithms.cpython-38.pyc:2
+- test_to_datetime.cpython-38.pyc:2
+- format.cpython-38.pyc:2
+- format.:3
+- printing.cpython-38.pyc 1:2
+- printing.cpython-38.pyc:4
+- tile.cpython-38.pyc:2
+- tile.:3
+- test_calendar.:3
+- test_period_index.cpython-38.pyc:2
+- _optional.:2
+- test_rename.cpython-38.pyc :2
+- test_indexing.cpython-38.pyc.14052242660:2
+- test_append.py 1:2
+- test_combine_concat.cpython-38.pyc:2
+- test_date_converters.cpython-38.pyc:2
+- test_date_converters.:3
+- test_date_:6
+- test_pct_change.cpython-38.pyc :2
+- test_pct_change.cpython-38.pyc:4
+- test_pct_change.:6
+- frequencies.cpython-38.pyc:2
+- frequencies.:3
+- numpy_.:3
+- test_rename_axis.cpython-38.pyc :2
+- test_multi_thread.cpython-38.pyc:2
+- test_get_value.cpython-38.pyc:2
+- test_get_value.:3
+- test_errors.py :2
+- quantile.cpython-38.pyc:2
+- quantile.:3
+- array_ops.cpython-38.pyc:2
+- test_astype.py 1:2
+- test_list.cpython-38.pyc:2
+- test_to_dict.cpython-38.pyc 1:2
+- test_head_tail.cpython-38.pyc :2
+- test_reshape.py :2
+- numpy_.cpython-38.pyc:2
+- generate_legacy_storage_files.cpython-38.pyc:2
+- test_timedeltas.cpython-38.pyc.14052243:2
+- test_is_homogeneous_dtype.:3
+- test_frame_groupby.cpython-38.pyc:2
+- test_frame_groupby.:3
+- test_pct_change.cpython-38.pyc.140522436:2
+- test_get_numeric_data.cpython-38.pyc.1405224:2
+- test_to_records.cpython-38.pyc:2
+- test_to_records.:3
+- test_series.cpython-38.pyc 5:2
+- test_series.cpython-38.pyc :3
+- pivot.:3
+- test_formats.cpython-38.pyc.140522435:3
+- test_calendar.cpython-38.pyc:2
+- test_categorical.cpython-38.pyc 11:2
+- style_render.cpython-38.pyc:2
+- style_render.:3
+- test_tz_localize.py :2
+- test_timestamp.py :2
+- reshape.cpython-38:3
+- __init__.cpython-38.pyc 78:2
+- test_datetime.cpython-38.pyc 1:2
+- test_datetime.cpython-38.pyc :5
+- test_add_prefix_suffix.cpython-38.pyc:2
+- test_add_prefix_suffix.:3
+- sparse.py:2
+- test_sorting.cpython-38.pyc.140522436:2
+- test_sorting.cpython-38.pyc.14052243:3
+- test_validate.py :2
+- join.py:2
+- test_monotonic.py :2
+- test_at_time.cpython-38.pyc:2
+- test_at_time.:3
+- test_to_frame.py :2
+- test_fillna.cpython-38.pyc.14052243570:2
+- test_fillna.cpython-38.pyc.140522435:5
+- test_formats.cpython-38.pyc 1:2
+- expressions.cpython-38.pyc:2
+- test_partial_slicing.cpython-38.pyc :2
+- test_size.cpython-38.pyc:2
+- test_size.:3
+- stata.cpython-38.pyc:2
+- pivot.cpython-38.pyc:2
+- holiday.cpython-38.pyc:2
+- test_to_latex.py :2
+- test_textreader.:3
+- test_subclass.py 2:2
+- test_numeric.cpython-38.pyc.1405224:2
+- test_parsing.cpython-38.pyc:2
+- index.py :2
+- test_month.cpython-38.pyc:2
+- test_setops.cpython-38.pyc 7:2
+- boolean.cpython-38.pyc:2
+- test_timezones.py 4:2
+- parquet.cpython-38.pyc:2
+- parquet.:3
+- test_construction.cpython-38.pyc.14052243608:2
+- test_categorical.py 7:2
+- test_read_fwf.cpython-38.pyc:2
+- timedeltas.cpython-38.pyc.14052243665:2
+- timedeltas.cpython-38.pyc.14052243:3
+- reshaping.cpython-38.pyc:2
+- io.cpython-38.pyc:2
+- io.c:3
+- ops.py :4
+- ops.py:6
+- test_reorder_levels.cpython-38.pyc:2
+- test_reorder_levels.:3
+- test_npfuncs.cpython-38.pyc.1405224359:2
+- test_npfuncs.cpython-38.pyc.14052243:3
+- test_style.cpython-38.pyc 4:2
+- test_index.cpython-38.pyc.14052243623:2
+- test_bool.cpython-38.pyc:2
+- test_cov_corr.cpython-38.pyc :2
+- test_describe.cpython-38.pyc :2
+- test_arrow_compat.py :2
+- test_pct_change.py :2
+- test_interval_range.:3
+- __init__.cpython-38.pyc.140522436:4
+- dtypes.cpython-38.pyc:2
+- testing.cpython-38.pyc.14052243:2
+- test_join.py 4:2
+- test_frozen.cpython-38.pyc:2
+- test_indexing.cpython-38.pyc 24:2
+- test_names.:3
+- shared.cpython-38.pyc:2
+- test_floats.cpython-38.pyc:2
+- test_update.cpython-38.pyc :2
+- test_update.cpython-38.pyc:4
+- test_align.py :2
+- array_manager.cpython-38.pyc:2
+- array_manager.:3
+- test_function.cpython-38.pyc 3:2
+- test_quoting.cpython-38.pyc:2
+- test_assign.cpython-38.pyc:2
+- test_combine.py :2
+- base.py 3:2
+- dates.:3
+- test_nunique.py :2
+- test_apply_mutate.cpython-38.pyc:2
+- test_delitem.cpython-38.pyc.14052243:2
+- test_merge_asof.cpython-38.pyc:2
+- orc.cpython-38.pyc:2
+- orc.:3
+- parsing.py:3
+- parsing.p:4
+- test_nat.py :2
+- test_join.cpython-38.pyc.14052243606:3
+- test_join.cpython-38.pyc.1405224360:5
+- conftest.cpython-38.pyc.140522426540:2
+- test_append_common.cpython-38.pyc:2
+- test_npfuncs.py 38:2
+- test_npfuncs.py :3
+- test_dropna.py :2
+- test_frame_color.cpython-38.pyc:2
+- xml.py :2
+- test_slice.cpython-38.pyc:2
+- test_slice.:3
+- test_moments_consistency_rolling.:3
+- test_partial.cpython-38.pyc :2
+- test_constructors.cpython-38.pyc.14052243636:2
+- test_astype.cpython-38.pyc.140522435802:2
+- test_indexers.cpython-38.pyc:2
+- test_filter.:3
+- test_date_range.:3
+- test_groupby_shift_diff.cpython-38.pyc:2
+- test_mangle_dupes.cpython-38.pyc:2
+- pytables.cpython-38.pyc.14052243:2
+- test_textreader.cpython-38.pyc:2
+- test_generic.cpython-38.pyc :2
+- ccalendar.py:2
+- test_is_unique.cpython-38.pyc:2
+- test_to_dict_of_blocks.cpython-38.pyc:2
+- algos_:2
+- test_filters.cpython-38.pyc:2
+- test_categorical.py 8:2
+- printing.cpython-38.pyc.14052243:2
+- test_dtypes.cpython-38.pyc 35:2
+- test_algos.py :2
+- common.py 4:2
+- test_tools.:3
+- test_operators.cpython-38.pyc:2
+- test_normalize.:3
+- test_convert_dtypes.cpython-38.pyc.140522436:2
+- test_convert_dtypes.cpython-38.pyc:4
+- multi.cpython-38.pyc:2
+- reshape.cpython-38.pyc:2
+- numba_.cpython-38.pyc.140522436:2
+- test_setops.py 9:2
+- test_allowlist.cpython-38.pyc:2
+- test_replace.cpython-38.pyc.140522435:2
+- test_assert_numpy_array_equal.cpython-38.pyc:2
+- test_names.cpython-38.pyc:2
+- test_arrow_compat.cpython-38.pyc :2
+- test_html.cpython-38.pyc.1405224:2
+- masked.cpython-38.pyc:2
+- conftest.py 3:2
+- test_monotonic.cpython-38.pyc :2
+- test_update.cpython-38.pyc.14052243:2
+- test_moments_consistency_rolling.cpython-38.pyc:2
+- test_mask.cpython-38.pyc :2
+- online.cpython-38.pyc:2
+- online.:3
+- test_any_index.cpython-38.pyc:2
+- floating.:3
+- clipboards.cpython-38.pyc:2
+- test_unary.py :2
+- test_compat.cpython-38.pyc.14052243:3
+- numba_.cpython-38.pyc :3
+- test_pickle.cpython-38.pyc.1405224359:2
+- test_nlargest.cpython-38.pyc.140522436:2
+- offsets.p:3
+- tokenizer.:2
+- test_is_homogeneous_dtype.cpython-38.pyc:2
+- period.py :2
+- test_indexing.cpython-38.pyc.14052243603:2
+- test_indexing.cpython-38.pyc.1405224360:3
+- test_rank.cpython-38.pyc 12:2
+- test_formats.cpython-38.pyc 8:2
+- test_transpose.cpython-38.pyc :2
+- test_ufunc.cpython-38.pyc :2
+- test_array.cpython-38.pyc.140522435894:2
+- test_sort_index.cpython-38.pyc :2
+- floating.cpython-38.pyc:2
+- test_date_range.cpython-38.pyc:2
+- algos.py:2
+- xml.cpython-38.pyc :2
+- test_filter.cpython-38.pyc:2
+- test_stack_unstack.cpython-38.pyc:2
+- test_lexsort.cpython-38.pyc:2
+- test_resolution.cpython-38.pyc:2
+- test_resolution.:3
+- test_file_handling.cpython-38.pyc:2
+- test_freq_code.:3
+- test_missing.cpython-38.pyc.1405224360:2
+- test_xs.cpython-38.pyc.14052243:2
+- test_format.cpython-38.pyc :2
+- test_missing.cpython-38.pyc 4:2
+- test_duplicate_labels.:3
+- test_formats.cpython-38.pyc.140522435947:2
+- test_resample_api.:3
+- test_fillna.cpython-38.pyc.1405224358:3
+- _mixins.cpython-38.pyc:2
+- test_series_transform.cpython-38.pyc:2
+- test_to_period.cpython-38.pyc.140522435:2
+- conversion.py:2
+- test_to_timestamp.cpython-38.pyc 4:2
+- test_liboffsets.:3
+- test_to_csv.cpython-38.pyc.140522435:2
+- test_to_markdown.cpython-38.pyc:2
+- test_to_csv.py :3
+- dates.cpython-38.pyc:2
+- offsets.py:2
+- test_round.cpython-38.pyc.14052243:2
+- test_astype.cpython-38.pyc.1405224357:2
+- test_dtypes.cpython-38.pyc.140522436:2
+- test_formats.cpython-38.pyc.14052242670:2
+- common.cpython-38.pyc 3:3
+- _color_data.cpython-38.pyc:2
+- test_compat.cpython-38.pyc.140522435:2
+- roperator.cpython-38.pyc:2
+- roperator.:3
+- test_partial.py :2
+- sas7bdat.cpython-38.pyc:2
+- test_scalar_compat.cpython-38.pyc 1:2
+- test_scalar_compat.cpython-38.pyc :3
+- test_concat.cpython-38.pyc 1:2
+- test_convert_dtypes.cpython-38.pyc :2
+- test_lib.cpython-38.pyc:2
+- test_constructors.cpython-38.pyc 6:2
+- _print_versions.cpython-38.pyc:2
+- _print_versions.:3
+- test_cumulative.py :2
+- test_diff.cpython-38.pyc :2
+- test_insert.cpython-38.pyc.1405224357:2
+- test_ops.py 2:2
+- test_deprecated.py :2
+- transforms.cpython-38.pyc:2
+- test_tools.cpython-38.pyc:2
+- test_api.cpython-38.pyc.1405224363:2
+- test_liboffsets.cpython-38.pyc:2
+- test_array.py :2
+- test_interval_range.cpython-38.pyc:2
+- test_concat.cpython-38.pyc.1405224358:2
+- test_hist_method.cpython-38.pyc:2
+- __init__.py 22:2
+- rolling.cpython-38.pyc:2
+- np_datetime_strings.:2
+- test_chaining_and_caching.cpython-38.pyc :2
+- test_resample_api.cpython-38.pyc:2
+- test_get_set.cpython-38.pyc:2
+- test_get_set.:3
+- test_dtype.:3
+- test_npfuncs.cpython-38.pyc 8:2
+- objects.cpython-38.pyc:2
+- objects.:3
+- test_duplicate_labels.cpython-38.pyc:2
+- test_freq_code.cpython-38.pyc:2
+- test_dtype.cpython-38.pyc:2
+- test_normalize.cpython-38.pyc:2

@@ -1,5 +1,5 @@
 # Praxi iPython Magic
-Praxi Magic is a iPython magic command that allows users to run Praxi directly from Jupyter Notebook to discover unwanted cloud software.
+RTQA Praxi Magic is a iPython magic command that allows users to run [Praxi](https://github.com/peaclab/praxi) directly from Jupyter Notebook to discover unwanted cloud software.
 
 ## Usage
 Run Praxi as a line magic:

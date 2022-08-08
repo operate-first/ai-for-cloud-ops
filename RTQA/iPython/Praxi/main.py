@@ -186,9 +186,13 @@ def iterative_experiment(train_path, test_path, resfile_name,
     if not (just_test or just_train):
         labels, preds = get_scores(clf, train_tags, train_labels, test_tags, test_labels)
         results.append((labels, preds))
-
+        
+        # Print always misses because accuracy cannot be determined because the label is the timestamp
+        # May not be needed in the future because prediction may occur on ML as a service server
         if print_misses:
             print("Predicting labels:")
+            # hard coded prediction for when ML as a service is integrated to Praxi magic
+            # print("label: <timestamp> prediction: <prediction>")
             for label, pred in zip(labels, preds):
                 if label != pred:
                     print('label:',label,'prediction:',pred)

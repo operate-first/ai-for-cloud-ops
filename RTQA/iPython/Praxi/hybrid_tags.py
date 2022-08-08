@@ -23,17 +23,24 @@ LOCK = Lock()
 
 class Hybrid(BaseEstimator):
     """ scikit style class for hybrid method """
-    def __init__(self, freq_threshold=1, vw_binary="C:/bin/vowpal_wabbit/build/vowpalwabbit/cli/Debug/vw.exe",
+    def __init__(self, freq_threshold=1, vw_binary="pathtovw",
                  pass_freq_to_vw=False, pass_files_to_vw=False,
                  vw_args='-b 26 --passes=20 -l 50',
                  probability=False, tqdm=True,
                  suffix='', iterative=False,
                  loss_function='hinge',
                  use_temp_files=False,
+                 # vw_modelfile='model.vw'
                  vw_modelfile='model.vw'): # if this is set true it will delete everything after end of runtime?
         """ Initializer for Hybrid method. Do not use multiple instances
         simultaneously.
         """
+        
+        fout=os.popen("which vw")
+        fout = fout.read().strip()
+        vw_binary = fout
+        
+
         self.freq_threshold = freq_threshold
         self.vw_args = vw_args
         self.pass_freq_to_vw = pass_freq_to_vw
@@ -165,6 +172,8 @@ class Hybrid(BaseEstimator):
         ### Print info about VW run ##############################
         #logging.info("vw took %f secs." % (time.time() - vw_start))
         print("vw took this many seconds: ", (time.time() - vw_start))
+        # checking what model vw is using
+        # print(self.vw_modelfile)
         if c.status_code:
             logging.error(
                 'something happened to vw, code: %d, out: %s, err: %s',

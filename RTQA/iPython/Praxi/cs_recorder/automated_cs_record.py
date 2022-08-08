@@ -77,7 +77,7 @@ if __name__ == '__main__':
 
     parser.add_argument('-t','--targetdir', help='Path to target directory.', required=True)
     parser.add_argument('-n', '--name', help='Application name', required=True)
-    parser.add_argument('-v', '--version', help="Application version", required=True)
+    parser.add_argument('-v', '--version', help="Application version", required=False)
     parser.add_argument('-r', '--repetitions', help='Number of installations to perform', default=1)
 
     args = vars(parser.parse_args())
@@ -86,22 +86,24 @@ if __name__ == '__main__':
     targetdir = args['targetdir']
     name = args['name']
     version = args['version']
-    label = name + '.' + version
-    cmd_name = name  + '=' + version
+    # label = name + '.' + version
+    label = name
+    # cmd_name = name  + '=' + version
+    cmd_name = name
     print(label)
-    watch_paths = ['/var/', '/usr/', '/etc/', '/bin/', '/lib/', '/lib64/']
-
-    cmd_install = ['sudo', 'apt-get', '--assume-yes', 'install', cmd_name]
-    #cmd_uninstall = ['echo', '"y"', '|', 'sudo', 'apt-get', 'remove', name]
-    cmd_uninstall = 'echo "y" | sudo apt-get remove --purge ' + name
-
+    watch_paths = ['/home/' + getpass.getuser() + '/.local/lib/python3.8/site-packages/']
+    
+    cmd_install = ['pip3','install', cmd_name]
+   
     subprocess.call(cmd_install)
-    os.system(cmd_uninstall)
+    subprocess.call(["pip3", "uninstall", "--yes", cmd_name])
+    # subprocess.run(cmd_uninstall)
+    # os.system(cmd_uninstall)
 
     for i in range(int(num_reps)):
         yaml_name = get_free_filename(label, targetdir, suffix='.yaml')
         # use a different watchdog each time cuz im lazy
-        dswd = ds_watchdog.DeltaSherlockWatchdog(watch_paths, "*", ".")
+        dswd = ds_watchdog.DeltaSherlockWatchdog(watch_paths, "*", "None")
         # Recording begins immediately after instantiation.
         print("Recording started")
         subprocess.call(cmd_install)
@@ -112,8 +114,7 @@ if __name__ == '__main__':
 
         json_to_yaml('cs.dscs', yaml_name, label=label)
         os.remove("cs.dscs")
-
-        os.system(cmd_uninstall)
+        subprocess.call(["pip3", "uninstall", "--yes", cmd_name])
         #subprocess.run(cmd_uninstall)
 
     print("done")

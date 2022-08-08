@@ -1,0 +1,112 @@
+id: []
+label: selenium
+tags:
+- sele:337
+- webdriver:336
+- web:349
+- dev:199
+- debugger.py 43:3
+- debugger.py 4:4
+- v10:147
+- dom.py 5:4
+- dom:16
+- remote_connection.py 1:3
+- remote_connection.py :4
+- remote_connection.:6
+- webdriver.py :9
+- webdriver.:13
+- dom_snapshot.py 3:4
+- dom_s:8
+- dom_:12
+- headless_experimental.py 4:4
+- hea:8
+- media.py :4
+- console.py :5
+- key:4
+- network.py :4
+- types.cpython-38.pyc:2
+- types.:3
+- __init__.cpython-38.pyc 17:4
+- __init__.cpython-38.pyc 1:6
+- __init__.cpython-38.pyc :7
+- __init__.:28
+- action:25
+- log.py :5
+- application_cache.py :2
+- performance:7
+- per:8
+- dom_storage.py :4
+- pointer_:2
+- options.py :9
+- options.:13
+- browser.py :4
+- __init__.py :21
+- emulation.py 2:4
+- heap_profiler.py 11:3
+- heap_profiler.py 1:4
+- fetch.py 1:4
+- overlay.py :4
+- tracing.py 1:4
+- service:17
+- io.py 303:4
+- chrom:25
+- target.py :4
+- cast.py :4
+- utils.py :2
+- service.cpython-38.pyc.13985790633:2
+- service.cpython-38.pyc:4
+- service.:13
+- exceptions.cpython-38.pyc:2
+- exceptions.:3
+- web_authn.py 12:3
+- web_authn.py :4
+- web_au:8
+- dom_debugger.py :4
+- remote_connection.cpython-38.pyc:2
+- page.py 10:3
+- page.py :4
+- options.cpython-38.pyc.13985790633:2
+- options.cpython-38.pyc:4
+- profiler.py 1:4
+- pro:5
+- security.py 16:4
+- web_audio.py 1689:4
+- options.py 1:3
+- runtime.py 57:2
+- runtime.py 5:4
+- webdriver.cpython-38.pyc :2
+- webdriver.cpython-38.pyc:4
+- service.py 162:2
+- service.py 1:4
+- service.py :9
+- firefox_:2
+- interaction.cpython-38.pyc:2
+- interaction.:3
+- webdriver.py 2:2
+- action_builder.:3
+- action_:6
+- accessibility.py :4
+- __init__.py 12:4
+- service.py 2:4
+- storage.py 16:3
+- storage.py :4
+- input_device.:3
+- input_:7
+- css.py :4
+- action_chains.cpython-38.pyc:2
+- action_chains.:3
+- event_:4
+- log.py 5:4
+- options.cpython-38.pyc :2
+- webdriver.py 3:2
+- key_:3
+- webdriver.cpython-38.pyc.13985790633:2
+- audits.py 4:3
+- audits.py :4
+- service.cpython-38.pyc 1:2
+- input_.py :4
+- input_device.cpython-38.pyc:2
+- wheel_:2
+- key_actions.:2
+- options.py 2:2
+- action_builder.cpython-38.pyc:2

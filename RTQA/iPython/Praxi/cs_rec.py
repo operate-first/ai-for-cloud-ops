@@ -58,7 +58,6 @@ def json_to_yaml(fname, yamlname, label=None):
     with open(yamlname, 'w') as outfile:
         yaml.dump(yaml_in, outfile, default_flow_style=False)
 
-
 if __name__ == '__main__':
     # Command line arguments!
     parser = argparse.ArgumentParser(description='Arguments for Praxi software discovery algorithm.')
@@ -72,10 +71,13 @@ if __name__ == '__main__':
     label = args['label']
     yaml_name = get_free_filename(label, targetdir, suffix='.yaml')
 
-    watch_path = sysconfig.get_paths()["purelib"]
+    # Get linux watch path 
+    # watch_path = sysconfig.get_paths()["purelib"]
+    watch_path = '/home/' + getpass.getuser() + '/.local/lib/python3.8/site-packages/'
+
     print("Watching:" + watch_path)
     watch_paths = [watch_path]
-    dswd = ds_watchdog.DeltaSherlockWatchdog(watch_paths, "*", ".")
+    dswd = ds_watchdog.DeltaSherlockWatchdog(watch_paths, "*", None)
     # Recording begins immediately after instantiation.
     print("Recording started")
     input("Press Enter to continue...")

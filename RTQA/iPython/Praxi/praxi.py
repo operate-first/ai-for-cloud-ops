@@ -182,8 +182,8 @@ class ExecutionMagics(Magics):
         p2 = subprocess.Popen(['python3', os.path.join(dirname, 'tagset_gen.py'),'-c',os.path.join(dirname, 'changesets'),'-t',os.path.join(dirname, 'tagsets')], stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
         # trying to implement multi classifier example
         # main.py generates a trains a new model everytime from scratch from the tagsets it is given
-        p3 = subprocess.Popen(['python3', os.path.join(dirname, 'main.py'),'-t',os.path.join(dirname, 'manytag'),
-            '-s',os.path.join(dirname, 'tagsets'),'-o',os.path.join(dirname, 'results'), '-i', os.path.join(dirname, 'multiclass.vw'), '-l'], 
+        p3 = subprocess.Popen(['python3', os.path.join(dirname, 'main.py'),'-t',os.path.join(dirname, 'demo_tagsets/multiclasstag'),
+            '-s',os.path.join(dirname, 'tagsets'),'-o',os.path.join(dirname, 'results'), '-i', os.path.join(dirname, 'iter_model.vw'), '-l'], 
             stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
        
         return out

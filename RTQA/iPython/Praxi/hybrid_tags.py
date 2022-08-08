@@ -30,12 +30,11 @@ class Hybrid(BaseEstimator):
                  suffix='', iterative=False,
                  loss_function='hinge',
                  use_temp_files=False,
-                 # vw_modelfile='model.vw'
                  vw_modelfile='model.vw'): # if this is set true it will delete everything after end of runtime?
         """ Initializer for Hybrid method. Do not use multiple instances
         simultaneously.
         """
-        
+        # getting path to vw
         fout=os.popen("which vw")
         fout = fout.read().strip()
         vw_binary = fout
@@ -172,8 +171,6 @@ class Hybrid(BaseEstimator):
         ### Print info about VW run ##############################
         #logging.info("vw took %f secs." % (time.time() - vw_start))
         print("vw took this many seconds: ", (time.time() - vw_start))
-        # checking what model vw is using
-        # print(self.vw_modelfile)
         if c.status_code:
             logging.error(
                 'something happened to vw, code: %d, out: %s, err: %s',

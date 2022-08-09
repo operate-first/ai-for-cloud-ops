@@ -192,10 +192,11 @@ def iterative_experiment(train_path, test_path, resfile_name,
         if print_misses:
             print("Predicting labels:")
             # hard coded prediction for when ML as a service is integrated to Praxi magic
-            # print("label: <timestamp> prediction: <prediction>")
-            for label, pred in zip(labels, preds):
-                if label != pred:
-                    print('label:',label,'prediction:',pred)
+            print("label: <timestamp> prediction: <prediction>")
+            # original code for predicting label from within local device
+            # for label, pred in zip(labels, preds):
+                # if label != pred:
+                    # print('label:',label,'prediction:',pred)
 
         # save and print results
         pickle.dump(results, resfile)

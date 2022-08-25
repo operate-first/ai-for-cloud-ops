@@ -1,3 +1,9 @@
+'''
+A python script used to install a python package with no dependancies, and generate the changeset for that package
+The script also tries to detect whether there was an error in the package installation/changeset generation,
+and if yes, writes out to an error text file
+'''
+
 import os
 import sys
 import time
@@ -28,5 +34,5 @@ if p_pip == 1:
 p.communicate(input=b'\n')
 
 # Tagset gen
-p2 = subprocess.Popen(['python', os.path.join(dirname, 'tagset_gen.py'),'-c',os.path.join(dirname, 'changesets'),'-t',os.path.join(dirname, 'tagsets')], stdin=subprocess.PIPE)
-p2.communicate()
+# p2 = subprocess.Popen(['python', os.path.join(dirname, 'tagset_gen.py'),'-c',os.path.join(dirname, 'changesets'),'-t',os.path.join(dirname, 'tagsets')], stdin=subprocess.PIPE)
+# p2.communicate()

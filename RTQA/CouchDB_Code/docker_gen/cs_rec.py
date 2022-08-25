@@ -82,14 +82,16 @@ if __name__ == '__main__':
     print("Recording stopped")
 
     # Save changeset
+    # Make changeset filename unique for multithreading
     cs = dswd.mark()
+    cs_name = 'cs' + label + '.dscs'
     print(cs)
-    io.save_object_as_json(cs, 'cs.dscs')
+    io.save_object_as_json(cs, cs_name)
 
-    json_to_yaml('cs.dscs', yaml_name, label=label)
+    json_to_yaml(cs_name, yaml_name, label=label)
 
     # Remove json file
-    os.remove("cs.dscs")
+    os.remove(cs_name)
     print("done")
 
     del dswd

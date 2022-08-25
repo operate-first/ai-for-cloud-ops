@@ -90,3 +90,12 @@ ENV/
 
 # repository packages
 rp/
+
+#Praxi
+changesets/
+changesets_fixed/
+tagsets/
+results/
+
+#Cache?
+*.cache

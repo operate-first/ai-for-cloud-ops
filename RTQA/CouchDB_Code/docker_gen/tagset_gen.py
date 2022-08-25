@@ -277,3 +277,4 @@ if __name__ == '__main__':
     create_files(tagset_names, ts_dir, labels, ids, tags)
 
     # logging.info("Tagset generation time: %s", str(time.time() - prog_start))
+
